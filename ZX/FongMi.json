@@ -60,6 +60,21 @@
       }
     },
     {
+            "key": "p2t",
+            "name": "PanSou",
+            "type": 3,
+            "api": "csp_TgYunDouBanPan",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://p2t.252035.xyz",
+                "count": 20,
+                "channelUsername": "",
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
+            }
+    },
+    {
       "key": "ConfigCenter",
       "name": "配置中心",
       "type": 3,
