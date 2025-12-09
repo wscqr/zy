@@ -1,10 +1,10 @@
 {
-  "spider": "./fty.jar;md5;403a59bd559cc36fe67544e5de66e774",
+  "spider": "./fty.jar;md5;dca1d3d747bfd41f8124f789acfae162",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "豆",
-      "name": "豆瓣",
+      "key": "豆豆",
+      "name": "🅱豆瓣┃推荐",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -13,7 +13,7 @@
       "changeable": 0
     },
     {
-      "key": "MyDrive",
+      "key": "MDrive",
       "name": "🗂我的云盘┃我配置",
       "type": 3,
       "api": "csp_MyDriveGuard",
@@ -173,6 +173,17 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A=="
+    },
+    {
+      "key": "猫猫",
+      "name": "🐟猫猫┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwtCFsub0/WmdmYi/k2NkJsm7Vk4dJQZft2UtrrwhKK52i/dDilKkU5Nz+V0bwkYsVuU="
     },
     {
       "key": "鲸鱼",
@@ -596,7 +607,7 @@
       }
     }
   ],
-  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a3cb3f8553ca2d67/1.5873679404696913E9.gif",
+  "logo": "https://img.imgdd.com/50871bc3-ff7a-46be-b4be-de69b5af241e.gif",
   "lives": [
     {
       "name": "冰茶",
