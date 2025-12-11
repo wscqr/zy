@@ -23,7 +23,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "tgsearchers3,leoziyuan,peccxinpd,yydf_hzl,vip115hot,clouddriveresources,q66share,yggpan,xiangxiunbb,oscardianying,dianying4k,wfysfx02,quarkfree,ucwpzy,ucquark,mcph860,mcph608,xunleibl,taoxgzy,yunpanx,kkxlzy,mcph086,dianyingshare,quark_movies,zyfx2022,alyp_1,quanziyuanshe,hdhhd21,guoman4k,duan_ju,q_dianying,q_dianshiju,sharepanfilms,mcph01,jdjdn1111,panjclub,baicaozy,yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,zyfb123,xx123pan,zyzhpd123,yingshifenxiang123,yp123pan,wp123zy115:oneonefivewpfx,lsp115,qukanmovie,channel_shares_115,share4115,ysxb48,aliyun:zaihuayun,sharealiyun,aliyun_4k_movies,aliyunys,qixingzhenren,yunpanuc,ucshare,ucwangpan",
+        "channellist": "tgsearchers3,leoziyuan,peccxinpd,yydf_hzl,vip115hot,clouddriveresources,q66share,yggpan,xiangxiunbb,oscardianying,dianying4k,wfysfx02,quarkfree,ucwpzy,ucquark,mcph860,mcph608,xunleibl,taoxgzy,yunpanx,kkxlzy,mcph086,dianyingshare,quark_movies,zyfx2022,alyp_1,quanziyuanshe,hdhhd21,guoman4k,duan_ju,q_dianying,q_dianshiju,sharepanfilms,mcph01,jdjdn1111,panjclub,baicaozy,yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,zyfb123,xx123pan,zyzhpd123,yingshifenxiang123,yp123pan,wp123zy115:oneonefivewpfx,lsp115,qukanmovie,channel_shares_115,share4115,ysxb48,aliyun:zaihuayun,sharealiyun,aliyun_4k_movies,aliyunys,qixingzhenren,yunpanuc,ucshare,ucwangpan"，
         "proxy": "proxy",
         "douban": "./lib/douban.json",
         "danmu": true
@@ -80,216 +80,48 @@
         "cookie": ""
       }
     },
-    {
-      "key": "TGYunPanLocal",
-      "name": "TG频道搜索",
-      "type": 3,
-      "api": "csp_TGYunPanLocal",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "tgsearchers3,leoziyuan,peccxinpd,yydf_hzl,vip115hot,clouddriveresources,q66share,yggpan,xiangxiunbb,oscardianying,dianying4k,wfysfx02,quarkfree,ucwpzy,ucquark,mcph860,mcph608,xunleibl,taoxgzy,yunpanx,kkxlzy,mcph086,dianyingshare,quark_movies,zyfx2022,alyp_1,quanziyuanshe,hdhhd21,guoman4k,duan_ju,q_dianying,q_dianshiju,sharepanfilms,mcph01,jdjdn1111,panjclub,baicaozy,yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,zyfb123,xx123pan,zyzhpd123,yingshifenxiang123,yp123pan,wp123zy115:oneonefivewpfx,lsp115,qukanmovie,channel_shares_115,share4115,ysxb48,aliyun:zaihuayun,sharealiyun,aliyun_4k_movies,aliyunys,qixingzhenren,yunpanuc,ucshare,ucwangpan",
-        "proxy": "proxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan",
-      "name": "TG群组搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "tgsearchers3,KFCYeah,tianyifc,BaiduCloudDisk,txtyzy,peccxinpd,gotopan,PanjClub,kkxlzy,baicaoZY,yggpan,zaihuayun,Q66Share,Oscar_4Kmovies,shareAliyun,alyp_1,Quark_Movies,XiangxiuNBB,ydypzyfx,ucquark,xx123pan,zyfb123,tyypzhpd,tianyirigeng,cloudtianyi,hdhhd21,Lsp115,qixingzhenren,tyysypzypd,vip115hot,wp123zy,yunpan189,yydf_hzl,leoziyuan",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan189",
-      "name": "TG189盘搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "tianyirigeng|1000,tianyi_pd2|1000,tyypzhpd|1000,cloudtianyi|1000,kuakeclound|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan115",
-      "name": "TG115搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "shares_115|1000,hao115|1000,Mbox115|1000,guaguale115|1000,zyfb115|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan移动",
-      "name": "TG异动搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ydypzyfx|1000,ydyp888|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan夸克",
-      "name": "TG夸克搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "tgsearchers|1000,yunpanshare|1000,kduanju|1000,MCPH860|1000,wama520520|1000,QuarkFree|1000,Quark_Movies|1000,MCPH086|1000,NewQuark|1000,kuakeyun|1000,alyp_Animation|1000,alyp_TV|1000,alyp_1|1000,alyp_JLP|1000,alyp_4K_Movies|1000,vip115hot|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan123",
-      "name": "TG123盘搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "pan123pan|1000,zyfb123|1000,zyzhpd123|1000,xx123pan|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan迅雷",
-      "name": "TG迅雷搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "xlshare|1000,xunleiyunpan|1000,yunpanxunlei|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPanUC",
-      "name": "TGUC盘搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "ucwpzy|1000,ucpanpan|1000,yunpanuc|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
-    {
-      "key": "TGYunPan阿里",
-      "name": "TG阿里盘搜索",
-      "type": 3,
-      "api": "csp_TGYunPan",
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/tgsearch.json",
-        "keywords": "名称,片名,推荐",
-        "tgsearch_url": "http://127.0.0.1:10199",
-        "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "NewAliPan|1000,aliyun|1000,zaihuayun|1000,shareAliyun|1000,Aliyun_4K_Movies|1000,shareAliyun|1000,shareAliyun|1000,yppan|1000,Q66Share|1000,dianyingshare|1000",
-        "proxy": "noproxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
-    },
+        {
+            "key": "TGYunPanLocal",
+            "name": "TG频道搜索",
+            "type": 3,
+            "api": "csp_TGYunPanLocal",
+            "timeout": 120,
+            "ext": {
+                "token": "./lib/tokenm.json",
+                "json": "./lib/tgsearch.json",
+                "keywords": "名称,片名,推荐",
+                "tgsearch_url": "https://tg.252035.xyz",
+                "tgsearch_media_url": "https://tg.252035.xyz",
+                "channellist": "tgsearchers3",
+                "proxy": "noproxy",
+                "danmu": true
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.77
+            }
+        },
+        {
+            "key": "TGYunPan",
+            "name": "TG群组搜索",
+            "type": 3,
+            "api": "csp_TGYunPan",
+            "timeout": 120,
+            "ext": {
+                "token": "./lib/tokenm.json",
+                "json": "./lib/tgsearch.json",
+                "keywords": "名称,片名,推荐",
+                "tgsearch_url": "https://tg.252035.xyz",
+                "tgsearch_media_url": "https://tg.252035.xyz",
+                "channellist": "tgsearchers3",
+                "proxy": "noproxy",
+                "danmu": true
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.77
+            }
+        },
     {
       "key": "二小网盘",
       "name": "二小|网盘",
