@@ -1,0 +1,43 @@
+[
+{
+	"name": "📀我的阿里",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/📀我的阿里云盘",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }	
+},
+{
+	"name": "🎎套娃",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/🎎我的套娃",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }	
+},
+{
+	"name": "🅿️PikPak",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/🕸️我的PikPak分享",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }	
+},
+{
+	"name": "🈴阿里分享合集",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/🈴我的阿里分享",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }	
+},
+{
+        "name": "🎤演唱会",
+        "server": "DOCKER_ADDRESS/",
+        "startPage": "/音乐/演唱会",
+        "showAll": false,
+        "search": false,
+        "params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+}
+]
+
