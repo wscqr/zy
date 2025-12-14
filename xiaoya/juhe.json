@@ -1,0 +1,32 @@
+{
+    "urls": [
+	{
+            "url": "DOCKER_ADDRESS/tvbox/my.json",
+            "name": "内置小雅搜索源"
+        },
+        {
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+            "name": "🦐fongmi"
+        },
+	{
+		"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+		"name": "🦐香雅情"
+	},
+        {
+               "url": "http://肥猫.live",
+               "name": "🐉肥猫"
+        },
+	{
+               "url": "http://tvbox.王二小放牛娃.xyz",
+               "name": "🐉放牛娃"
+        },
+        {
+            	"url": "https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
+            	"name": "🥞PG"
+        },
+	{
+            	"url": "https://tv.nxog.top/m/",
+            	"name": "🦀讴歌"
+        }
+    ]
+}
