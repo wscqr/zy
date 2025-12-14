@@ -1,0 +1,66 @@
+[
+{
+	"name": "丫仙女",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/",
+	"showAll": false,
+	"search": true,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "每日更新",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/每日更新",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "电影",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/电影",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "电视剧",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/电视剧",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "综艺",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/综艺",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "纪录片",
+	"server": "DOCKER_ADDRESS/",
+	"startPage": "/纪录片",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+    	"name": "动漫",
+    	"server": "DOCKER_ADDRESS/",
+    	"startPage": "/动漫",
+    	"showAll": false,
+    	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+        "name": "儿童",
+        "server": "DOCKER_ADDRESS/",
+        "startPage": "/动漫/儿童",
+        "showAll": false,
+        "search": false,
+        "params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+}
+]
