@@ -1,0 +1,132 @@
+{
+  "video" : {
+    "sites" : [ {
+        "name": "小雅",
+        "api": "/tvbox/cat/libs/cat.alist.min.js",
+        "type": 3,
+        "key": "xiaoya",
+        "ext": [
+          {
+            "name": "每日更新",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/每日更新",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "电影",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/电影",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "电视剧",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/电视剧",
+            "showAll": false,
+            "search": false
+          },
+	  {
+            "name": "短剧",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/每日更新/爽文短剧"
+          },
+          {
+            "name": "综艺",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/综艺",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "纪录片",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/纪录片",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "动漫",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/动漫",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "儿童",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/动漫/儿童",
+            "showAll": false,
+            "search": false
+          },
+          {
+            "name": "丫仙女",
+            "server": "DOCKER_ADDRESS/",
+            "startPage": "/",
+            "showAll": false,
+            "search": true
+          }
+        ]
+    },
+    {
+      "name" : "豆瓣荐片",
+      "api" : "/tvbox/cat/douban_open.js",
+      "type" : 3,
+      "indexs" : 1,
+      "key" : "douban"
+    },
+    {
+      "name" : "豆瓣片单",
+      "api" : "/tvbox/cat/doubanbb.js",
+      "type" : 3,
+      "indexs" : 1,
+      "key" : "doubanbb"
+    },
+    {
+      "name" : "玩偶哥哥",
+      "api" : "/tvbox/cat/wogg_open.js",
+      "type" : 3,
+      "key" : "wogg",
+      "ext" : "ALI_SHORT_TOKEN"
+    },
+    {
+      "name" : "玩偶表哥",
+      "api" : "/tvbox/cat/wobg_open.js",
+      "type" : 3,
+      "key" : "wobg",
+      "ext" : "ALI_SHORT_TOKEN"
+    },
+    {
+      "key" : "upyun",
+      "name" : "云搜",
+      "type" : 3,
+      "api" : "/tvbox/cat/upyun_open.js",
+      "ext" : "ALI_SHORT_TOKEN"
+    },
+    {
+      "key" : "nangua",
+      "name" : "南瓜",
+      "type" : 3,
+      "api" : "/tvbox/cat/ng_open.js"
+    },
+    {
+      "key" : "liangzi",
+      "name" : "量子",
+      "type" : 3,
+      "api" : "/tvbox/cat/lz_open.js"
+    },
+    {
+      "key" : "tiantian",
+      "name" : "天天",
+      "type" : 3,
+      "api" : "/tvbox/cat/tiantian_open.js"
+    },
+    {
+      "key" : "58dm",
+      "name" : "五八动漫",
+      "type" : 3,
+      "api" : "/tvbox/cat/58dm_open.js"
+    }]
+  }
+}
