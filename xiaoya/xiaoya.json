@@ -1,12 +1,6 @@
 {
   "sites": [
     {
-      "key": "py_64832281816dd9a7b7c506233d457a5d",
-      "name": "官采",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=64832281816dd9a7b7c506233d457a5d"
-    },
-    {
       "key": "xiaoya",
       "name": "小雅 | 4K",
       "type": 3,
