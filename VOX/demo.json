@@ -113,7 +113,7 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "tgsearchers3"
+                "channel": "tgsearchers3,yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,yeqingjie_GJG666"
             }
         },
         {
@@ -125,7 +125,7 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "PanjClub,guoman4K,alyp_1"
+                "channel": "PanjClub,guoman4K,alyp_1,kuake_yppan"
             }
         },
         {
@@ -149,7 +149,7 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd"
+                "channel": "BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan"
             }
         },
         {
@@ -185,7 +185,7 @@
             "changeable": 1,
             "ext": {
                 "filters": "./json/douban.json",
-                "channel": "shareAliyun,zaihuayun"
+                "channel": "shareAliyun,zaihuayun,ali_yppan"
             }
         },
         {
@@ -238,7 +238,7 @@
         },
         {
             "key": "csp_Douban",
-            "name": "🧐豆瓣┃VOX",
+            "name": "🥰豆瓣┃VOX",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -368,6 +368,12 @@
             "changeable": 1
         },
         {
+            "key": "短裤",
+            "name": "🐥短剧┃推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
+        },
+        {
             "key": "csp_Kan90",
             "name": "😇最全┃短剧",
             "type": 3,
@@ -448,6 +454,18 @@
             "ext": {
                 "sites": "https://mihdr.top",
                 "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "短剧AI",
+            "name": "🤔短剧┃AI",
+            "type": 3,
+            "api": "csp_DuanJuCen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
             }
         },
         {
