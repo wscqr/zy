@@ -134,15 +134,26 @@
       "ext": "./lib/tokenm.json$$$https://erxiaofn.click/$$$noproxy$$$1$$$./lib/wogg.json$$$ERXIAO"
     },
     {
-      "key": "闪电网盘",
-      "name": "闪电|网盘",
+      "key": "傻样网盘",
+      "name": "傻样|网盘",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$http://1.95.79.193:666$$$noproxy$$$1$$$./lib/wogg.json$$$SANDIAN"
+      "ext": "./lib/tokenm.json$$$http://xsayang.fun:12512/$$$noproxy$$$1$$$./lib/wogg.json$$$SANDIAN"
+    },
+   {
+      "key": "小米网盘",
+      "name": "小米|网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$http://xiaomi666.fun$$$noproxy$$$1$$$./lib/wogg.json$$$XIAOMI"
     },
     {
       "key": "多多网盘",
