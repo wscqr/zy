@@ -1,14 +1,15 @@
 {
   "sites": [
     {
-      "key": "Alist",
-      "name": "🌟小雅┃高清",
+      "key": "xiaoya",
+      "name": "小雅 | 4K",
       "type": 3,
       "api": "csp_AListSh",
       "jar": "http://47.120.12.26:5678/tvbox/libs/xiaoya_proxy.jar",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
+      "changeable": 1,
       "ext": [
         {
           "name": "丫仙女",
