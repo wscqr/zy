@@ -75,14 +75,8 @@
       ]
     },
     {
-      "api": "https://learnpython.ggff.net/4KVMYS",
-      "key": "4KVMYS",
-      "name": "4KVMYS",
-      "type": 4
-    },
-    {
       "key": "py_64832281816dd9a7b7c506233d457a5d",
-      "name": "官方采集",
+      "name": "官采",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=64832281816dd9a7b7c506233d457a5d"
     }
