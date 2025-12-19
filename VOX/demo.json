@@ -469,6 +469,15 @@
             }
         },
         {
+            "key": "VOX聚合短剧",
+            "name": "🎿聚合┃短剧",
+            "type": 3,
+            "api": "csp_JuheShortDrama",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "星空影视",
             "name": "🌌星空┃APP",
             "type": 3,
