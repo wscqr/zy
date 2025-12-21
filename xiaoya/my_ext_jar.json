@@ -1,5 +1,5 @@
 {
-  "spider": "https://oss4liview.moji.com/thd_file/2025/12/17/f1ed874619a1f75d84cb7027e460300a.jpg;md5;b193ac42935106726430b09785566f60",
+  "spider": "https://oss4liview.moji.com/thd_file/2025/12/21/04adb5b81e663ce607150e2f20bde4f7.jpg;md5;1c82626b181e3c73b02683b2e81238d2",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "key": "豆豆",
+      "key": "豆",
       "name": "豆瓣荐片",
       "type": 3,
       "api": "csp_DouDouGuard",
@@ -142,6 +142,22 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "ZPan",
+      "name": "🎈聚盘搜┃三盘",
+      "type": 3,
+      "api": "csp_S_zpsGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "https://api.jkai.de/"
+      },
       "indexs": 0,
       "style": {
         "type": "list"
@@ -505,19 +521,6 @@
       "name": "🦋米搜┃优夸",
       "type": 3,
       "api": "csp_MIPanSoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "xzso",
-      "name": "👻盘他┃夸父",
-      "type": 3,
-      "api": "csp_XzsoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
