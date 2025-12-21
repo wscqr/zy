@@ -244,6 +244,21 @@
             }
         },
         {
+            "key": "夸克",
+            "name": "夸克｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudKK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://www.quarktv.cc"
+                ]
+            }
+        },
+        {
             "key": "清影",
             "name": "清影｜4K",
             "type": 3,
@@ -332,30 +347,16 @@
             "ext": "./json/123.json"
         },
         {
+            "key": "人人",
+            "name": "人人｜4K",
+            "type": 3,
+            "api": "csp_RenRen"
+        },
+        {
             "key": "即刻",
             "name": "即刻｜4K",
             "type": 3,
             "api": "csp_Jike",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "双星",
-            "name": "双星｜4K",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/双星.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "人人",
-            "name": "人人｜4K",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/人人电影网.js",
             "style": {
                 "type": "list"
             }
@@ -466,16 +467,40 @@
             "api": "csp_MiSou"
         },
         {
-            "key": "酷乐搜索",
+            "key": "酷乐",
             "name": "酷乐｜搜索",
             "type": 3,
             "api": "csp_KuLe"
         },
         {
-            "key": "鬼鬼搜索",
+            "key": "鬼鬼",
             "name": "鬼鬼｜搜索",
             "type": 3,
             "api": "csp_GuiGui"
+        },
+        {
+            "key": "混合",
+            "name": "混合｜搜索",
+            "type": 3,
+            "api": "csp_HunHePan"
+        },
+        {
+            "key": "兄弟",
+            "name": "兄弟｜搜索",
+            "type": 3,
+            "api": "csp_XiongDiPan"
+        },
+        {
+            "key": "天翼",
+            "name": "天翼｜搜索",
+            "type": 3,
+            "api": "csp_TianYiSo"
+        },
+        {
+            "key": "趣盘",
+            "name": "趣盘｜搜索",
+            "type": 3,
+            "api": "csp_QuPanSo"
         },
         {
             "key": "版本信息",
