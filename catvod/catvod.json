@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "www.Catvod.com 本站(所有内容仅供测试学习使用,请勿用于违法用途.)",
+      "name": "豆 瓣",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 1,
