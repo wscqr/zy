@@ -469,6 +469,18 @@
             }
         },
         {
+            "key": "星之阁短剧AI",
+            "name": "😒短剧┃AI²",
+            "type": 3,
+            "api": "csp_XingZhiGe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "classes": "./json/duanjucen.json"
+            }
+        },
+        {
             "key": "VOX聚合短剧",
             "name": "🎿聚合┃短剧",
             "type": 3,
@@ -476,15 +488,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
-        },
-        {
-            "key": "星空影视",
-            "name": "🌌星空┃APP",
-            "type": 3,
-            "api": "csp_Appfox",
-            "ext": {
-                "host": "http://fox.qwqfun.com"
-            }
         },
         {
             "key": "极兔影视",
@@ -553,18 +556,6 @@
             "ext": {
                 "host": "https://www.jumengwu.com",
                 "datakey": "1f0a873caf2550a5"
-            }
-        },
-        {
-            "key": "缘梦影视",
-            "name": "😴缘梦｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://www.zipfve.cn",
-                "datakey": "1234567890987654"
             }
         },
         {
@@ -657,18 +648,6 @@
             }
         },
         {
-            "key": "稀饭",
-            "name": "🍚稀饭┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://app.xifanys.com",
-                "datakey": "HM6Ly9yeS4ya3dvL"
-            }
-        },
-        {
             "key": "次元方舟",
             "name": "🛸方舟┃APP",
             "type": 3,
@@ -751,6 +730,17 @@
             "ext": {
                 "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+                "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "剧永久",
+            "name": "🎽剧集┃永久",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppYsV2",
+            "ext": {
+                "api": "http://yjer.jumianfei.com/icciu_api.php/v1.vod",
                 "apisignkey": "lvdoutv-1.0.0"
             }
         },
