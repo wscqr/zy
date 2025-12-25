@@ -52,9 +52,9 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://tgsou.252035.xyz",
+        "siteUrl": "http://127.0.0.1:9999",
         "count": 4,
-        "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,leoziyuan,ResourceUniverse,tgsearchers3,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
+        "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
       }
@@ -95,7 +95,34 @@
       "filterable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://www.jiabaide.cn",
+        "site": "https://www.ksnnhbj.com",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "聚合短剧",
+      "name": "聚合短剧",
+      "type": 3,
+      "api": "csp_JuheShortDrama",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "host": {
+          "百度": "https://api.jkyai.top",
+          "甜圈": "https://mov.cenguigui.cn",
+          "锦鲤": "https://api.jinlidj.com",
+          "番茄": "https://reading.snssdk.com",
+          "番茄2": "https://fqgo.52dns.cc",
+          "星芽": "https://app.whjzjx.cn",
+          "星芽登录": "https://u.shytkjgs.com",
+          "西饭": "https://xifan-api-cn.youlishipin.com",
+          "七猫": "https://api-store.qmplaylet.com",
+          "七猫详情": "https://api-read.qmplaylet.com",
+          "围观": "https://api.drama.9ddm.com",
+          "碎片": "https://free-api.bighotwind.cc",
+          "碎片图片": "https://speed.hiknz.com"
+        },
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -137,7 +164,8 @@
         "filter": {
           "include": ["HDR","高码"],
           "exclude": ["预告", "花絮"]
-        }
+        },
+        "commonConfig": "./json/peizhi.json"
       }
     },
     {
@@ -191,7 +219,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://f1.qilin8.com/api",
+        "siteUrl": "https://bt.muxia.fun/api",
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -243,7 +271,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://erxiaofn.click/",
+        "siteUrl": "https://wexwp.cc/",
         "filter": "./json/wogg.json"
       }
     },
