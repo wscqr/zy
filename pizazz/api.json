@@ -812,7 +812,14 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/雷鲸.json"
+            "ext": {
+                "site": [
+                    "https://www.leijing.xyz",
+                    "https://www.leijing1.com",
+                    "https://leijing.xyz",
+                    "https://leijing1.com"
+                ]
+            }
         },
         {
             "key": "海绵",
@@ -827,7 +834,13 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/海绵.json"
+            "ext": {
+                "site": [
+                    "http://haimian.eu.org",
+                    "https://www.hmxz.org",
+                    "https://www.haimianxz.com"
+                ]
+            }
         },
         {
             "key": "夸父",
@@ -842,7 +855,12 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/夸父.json"
+            "ext": {
+                "site": [
+                    "https://www.kfzy.cc"
+                ],
+                "cookie": "bbs_sid=qtrfbfct9gs8e7qat96o3nf09t; isClose=yes; __mxau__c2-lS6GI0pR=de438e75-e385-47c4-acb1-6564b407c7b1; __mxaf__c2-lS6GI0pR=1761439615; bbs_token=9NqiBWxAvM2MN_2FST20QOg5g9gcyzm2Hqfd9YwaQjK6Y_3D; __mxas__c2-lS6GI0pR=%7B%22sid%22%3A%22e4f30c47-1290-431b-b228-b9116c4744bd%22%2C%22vd%22%3A5%2C%22stt%22%3A168%2C%22dr%22%3A3%2C%22expires%22%3A1761476207%2C%22ct%22%3A1761474407%7D; __mxav__c2-lS6GI0pR=13"
+            }
         },
         {
             "key": "盘它",
@@ -870,7 +888,12 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/123.json"
+            "ext": {
+                "site": [
+                    "https://123panfx.com",
+                    "https://pan1.me"
+                ]
+            }
         },
         {
             "key": "人人",
@@ -1225,19 +1248,6 @@
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
                 "dataIv": "66dc309cbeeca454"
-            }
-        },
-        {
-            "key": "稀饭动漫",
-            "name": "稀饭｜动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
-                "dataKey": "1yZ2Spn9krnzVKoC",
-                "dataIv": "1yZ2Spn9krnzVKoC"
             }
         },
         {
@@ -1662,13 +1672,28 @@
             }
         },
         {
+            "key": "六月听书",
+            "name": "六月｜听书",
+            "type": 3,
+            "api": "csp_TingBook",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "呦呦DJ",
+            "name": "呦呦｜DJ",
+            "type": 3,
+            "api": "csp_Djuu",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "戏曲多多",
             "name": "戏曲｜多多",
             "type": 3,
             "api": "csp_AppLY",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "style": {
                 "type": "list"
             }
