@@ -47,7 +47,8 @@
       "key": "duanju",
       "name": "破碎|短剧",
       "type": 3,
-      "api": "csp_HBsuipian"
+      "api": "csp_HBsuipian",
+      "ext":"https://speed.howdbm.com/papaya/papaya-file/files/download/"
     },
     {
       "key": "B站直播",
