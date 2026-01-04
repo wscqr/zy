@@ -23,19 +23,12 @@
             "ua": ""
         },
         {
-            "name": "📡冰茶",
-            "url": "https://bc.188766.xyz/?ip=&mima=bingchawusifengxian",
-            "header": {
-                "User-Agent": "okhttp/5.1.0"
-            }
-        },
-        {
-            "name": "📡冰茶2",
-            "url": "https://bc.188766.xyz/?ip=211.101.246.236&mima=mianfeibuhuaqian",
+            "name": "📡冰茶直播",
             "type": 0,
-            "ua": "okHttp/Mod-1.2.0.1",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+            "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mima=bingcha1130",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "timeout": 10
         }
     ],
     "sites": [
@@ -457,20 +450,8 @@
             }
         },
         {
-            "key": "短剧AI",
-            "name": "🤔短剧┃AI",
-            "type": 3,
-            "api": "csp_DuanJuCen",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "classes": "./json/duanjucen.json"
-            }
-        },
-        {
             "key": "星之阁短剧AI",
-            "name": "😒短剧┃AI²",
+            "name": "😒短剧┃AI",
             "type": 3,
             "api": "csp_XingZhiGe",
             "searchable": 1,
@@ -490,14 +471,12 @@
             "changeable": 0
         },
         {
-            "key": "极兔影视",
-            "name": "🐰极兔┃APP",
+            "key": "哈基米",
+            "name": "🚵基米┃APP",
             "type": 3,
+            "changeable": 0,
             "api": "csp_Appfox",
-            "ext": {
-                "host": "https://www.dhxxfhsz.top",
-                "ver": 2
-            }
+            "ext": "http://45.207.215.137:8006"
         },
         {
             "key": "恋鱼影视",
@@ -517,8 +496,31 @@
             "changeable": 0,
             "api": "csp_Appfox",
             "ext": {
-                "host": "https://www.70yyw.cc",
+                "host": "https://qh.70qh.top",
                 "ver": 2
+            }
+        },
+        {
+            "key": "粉象世界",
+            "name": "🐘粉象┃APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_Appfox",
+            "ext": {
+                "host": "http://121.40.131.51:2556/host.json",
+                "ver": 2
+            }
+        },
+        {
+            "key": "爱影视",
+            "name": "👑爱影┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
+                "datakey": "sda1231sasddad21",
+                "ua": "okhttp/3.10.0",
+                "api": 2
             }
         },
         {
@@ -532,18 +534,6 @@
                 "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
                 "datakey": "kecbio48dsq131ed",
                 "api": "2"
-            }
-        },
-        {
-            "key": "极兔影视",
-            "name": "🐇极兔┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "http://www.mzd.asia",
-                "datakey": "5565s56as4d56as4"
             }
         },
         {
@@ -610,15 +600,25 @@
         },
         {
             "key": "仓鼠4K",
-            "name": "🐭仓鼠｜APP",
+            "name": "🤑仓鼠｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://hk421appcms.cs4k.top",
-                "datakey": "da61247f5b662597",
-                "api": "2"
+                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi430.txt",
+                "datakey": "7sKhdca8HXGuyZ4x",
+                "api": 2
+            }
+        },
+        {
+            "key": "魔方4K",
+            "name": "🎲魔方┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://snysw.xyz/mf4k326.txt",
+                "datakey": "1234567887654321"
             }
         },
         {
@@ -698,15 +698,14 @@
             }
         },
         {
-            "key": "冬日动漫",
-            "name": "☃️冬日｜APP",
+            "key": "剧下饭",
+            "name": "🍚剧集┃下饭",
             "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
+            "changeable": 0,
+            "api": "csp_AppYsV2",
             "ext": {
-                "host": "http://winter1.top",
-                "datakey": "qE2nD0rL1lH4uP9r"
+                "api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
+                "apisignkey": "lvdoutv-1.0.0"
             }
         },
         {
@@ -720,28 +719,16 @@
             "ext": "http://202.189.9.236:12345/mtq.php/v6"
         },
         {
-            "key": "Max",
-            "name": "❤️下饭┃Max",
+            "key": "永恒视频",
+            "name": "🐁永恒┃APP",
             "type": 3,
-            "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "api": "csp_AppYsV2",
+            "api": "csp_Hmys",
             "ext": {
-                "api": "http://yjyi.juyongjiu.com:80/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
-            "key": "剧永久",
-            "name": "🎽剧集┃永久",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppYsV2",
-            "ext": {
-                "api": "http://yjer.jumianfei.com/icciu_api.php/v1.vod",
-                "apisignkey": "lvdoutv-1.0.0"
+                "host": "https://dy.oogsy.com",
+                "app_id": "yongheng",
+                "deviceid": "92ec8baead8e788b",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
             }
         },
         {
@@ -793,20 +780,47 @@
             "jar": "./jar/xbpq.jar"
         },
         {
-            "key": "秀儿影视",
-            "name": "🦈秀儿┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./xb/秀儿影视.json",
-            "jar": "./jar/xbpq.jar"
-        },
-        {
             "key": "韩剧看看",
             "name": "🇰🇷韩剧┃看看",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./xb/韩剧看看.json",
             "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "央视大全",
+            "name": "🎥央视┃大全",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视大全.js"
+        },
+        {
+            "key": "央视综合",
+            "name": "🎥央视┃综合",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视综合.js"
+        },
+        {
+            "key": "央视少儿",
+            "name": "🎥央视┃少儿",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视少儿.js"
+        },
+        {
+            "key": "央视经济",
+            "name": "🎥央视┃经济",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视经济.js"
+        },
+        {
+            "key": "央视合集",
+            "name": "🎥央视┃合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视合集.js"
         },
         {
             "key": "100听书",
@@ -859,13 +873,6 @@
             "ext": "./js/戏曲大全.js"
         },
         {
-            "key": "百度短剧",
-            "name": "💗百度┃短剧",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/百度短剧.js"
-        },
-        {
             "key": "爱看资源网",
             "name": "🚘爱看┃网盘",
             "type": 3,
@@ -887,11 +894,16 @@
             "ext": "./js/夸克影视.js"
         },
         {
-            "key": "夸克影院",
-            "name": "💔夸克┃影院",
+            "key": "cat_夸克影院",
+            "name": "👶夸克┃影院",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/夸克影院.js"
+            "api": "./js/夸克影院.js"
+        },
+        {
+            "key": "cat_HDmoli",
+            "name": "⛵HDmoli┃影院",
+            "type": 3,
+            "api": "./js/HDmoli.js"
         },
         {
             "key": "灯泡网盘",
@@ -935,22 +947,15 @@
             "ext": "./js/泥泥视频.js"
         },
         {
-            "key": "py_4K影院",
-            "name": "🥭4K┃影院",
-            "api": "./py/4K影院.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
-        },
-        {
-            "key": "py_PHP影视",
-            "name": "😬PHP┃影视",
-            "api": "./py/PHP影视.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "type": 3
+            "key": "孜然影视",
+            "name": "🐲孜然┃影视",
+            "type": 3,
+            "api": "./js/孜然影视.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
         },
         {
             "key": "py_LIBVIO",
