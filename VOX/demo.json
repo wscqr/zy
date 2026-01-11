@@ -33,6 +33,16 @@
     ],
     "sites": [
         {
+            "key": "csp_Douban",
+            "name": "🥰豆瓣┃VOX",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": "./json/douban.json"
+        },
+        {
             "key": "csp_Config",
             "name": "😊配置┃中心",
             "type": 3,
@@ -63,6 +73,7 @@
             "api": "csp_PanShareQuark",
             "searchable": 1,
             "changeable": 0,
+            "timeout": 60,
             "ext": {
                 "class": "./json/quarkshare.txt"
             }
@@ -74,6 +85,7 @@
             "api": "csp_PanShareUC",
             "searchable": 1,
             "changeable": 0,
+            "timeout": 60,
             "ext": {
                 "class": "./json/ucshare.txt"
             }
@@ -85,6 +97,7 @@
             "api": "csp_TgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "include": [
@@ -104,6 +117,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "tgsearchers3,yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,yeqingjie_GJG666"
@@ -116,6 +130,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "PanjClub,guoman4K,alyp_1,kuake_yppan"
@@ -128,6 +143,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "yunpanuc"
@@ -140,6 +156,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan"
@@ -152,6 +169,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "zyfb123,xx123pan,zyzhpd123,yp123pan"
@@ -164,6 +182,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd"
@@ -176,6 +195,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "shareAliyun,zaihuayun,ali_yppan"
@@ -188,6 +208,7 @@
             "api": "csp_PgDouban",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/douban.json",
                 "channel": "yunpan139,ydypzyfx"
@@ -197,46 +218,43 @@
             "key": "夸克推送",
             "name": "👊夸克┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=quark"
         },
         {
             "key": "百度推送",
             "name": "✊百度┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=baidu"
         },
         {
             "key": "UC推送",
             "name": "☝️优熙┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=uc"
         },
         {
             "key": "天翼推送",
             "name": "✋天翼┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=tianyi"
         },
         {
             "key": "123推送",
             "name": "✌️123┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=123"
         },
         {
             "key": "移动推送",
             "name": "👍移动┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/api.php?type=mobile"
-        },
-        {
-            "key": "csp_Douban",
-            "name": "🥰豆瓣┃VOX",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "changeable": 1,
-            "ext": "./json/douban.json"
         },
         {
             "key": "csp_Panta91",
@@ -246,6 +264,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
+            "timeout": 60,
             "style": {
                 "type": "list"
             },
@@ -262,6 +281,7 @@
             "api": "csp_GuanYing",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "cookie": "",
                 "filters": "./json/guanying.json",
@@ -273,6 +293,7 @@
             "name": "🎳Seed┃Hub",
             "type": 3,
             "api": "csp_SeedHub",
+            "timeout": 60,
             "searchable": 1,
             "changeable": 0
         },
@@ -284,6 +305,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "",
                 "proxy": "proxy"
@@ -297,6 +319,7 @@
             "filterable": 1,
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "filters": "./json/xxzn.json",
                 "sites": "https://4kzn.com"
@@ -310,6 +333,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
+            "timeout": 60,
             "style": {
                 "type": "list"
             },
@@ -327,6 +351,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "https://wogg.xxooo.cf",
                 "proxy": "noproxy"
@@ -364,6 +389,7 @@
             "key": "短裤",
             "name": "🐥短剧┃推送",
             "type": 4,
+            "timeout": 60,
             "api": "https://so.yinpai.xyz/duanju.php?type=dquark"
         },
         {
@@ -371,6 +397,7 @@
             "name": "😇最全┃短剧",
             "type": 3,
             "api": "csp_Kan90",
+            "timeout": 60,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
@@ -382,6 +409,7 @@
             "api": "csp_PanSou",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {}
         },
         {
@@ -392,6 +420,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "https://woog.nxog.eu.org",
                 "proxy": "noproxy"
@@ -405,6 +434,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "https://feimao666.fun",
                 "proxy": "noproxy"
@@ -418,6 +448,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "http://2xiaopan.fun",
                 "proxy": "noproxy"
@@ -431,6 +462,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "https://www.muou.site",
                 "proxy": "noproxy"
@@ -444,6 +476,7 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
+            "timeout": 60,
             "ext": {
                 "sites": "https://mihdr.top",
                 "proxy": "noproxy"
@@ -471,14 +504,6 @@
             "changeable": 0
         },
         {
-            "key": "哈基米",
-            "name": "🚵基米┃APP",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_Appfox",
-            "ext": "http://45.207.215.137:8006"
-        },
-        {
             "key": "恋鱼影视",
             "name": "🌹恋鱼┃APP",
             "type": 3,
@@ -486,7 +511,9 @@
             "api": "csp_Appfox",
             "ext": {
                 "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
-                "ver": 2
+                "timeout": 15,
+                "key": "1433223",
+                "sign": "47aa22547fcada31dd7bd35cab492326"
             }
         },
         {
@@ -512,18 +539,6 @@
             }
         },
         {
-            "key": "爱影视",
-            "name": "👑爱影┃APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
-                "datakey": "sda1231sasddad21",
-                "ua": "okhttp/3.10.0",
-                "api": 2
-            }
-        },
-        {
             "key": "金牌影院",
             "name": "🥇金牌┃APP",
             "type": 3,
@@ -534,6 +549,17 @@
                 "host": "https://dtqj1.gg1080.com:443/dtjp.txt",
                 "datakey": "kecbio48dsq131ed",
                 "api": "2"
+            }
+        },
+        {
+            "key": "奇奇视频",
+            "name": "🚵奇奇｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "api": "2",
+                "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
+                "datakey": "123456789abcdefg"
             }
         },
         {
@@ -606,8 +632,8 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi430.txt",
-                "datakey": "7sKhdca8HXGuyZ4x",
+                "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi440.txt",
+                "datakey": "fL7sY4zN4kB3pG4p",
                 "api": 2
             }
         },
@@ -617,7 +643,7 @@
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "host": "https://snysw.xyz/mf4k326.txt",
+                "host": "https://snysw.xyz/mf4kzs327.txt",
                 "datakey": "1234567887654321"
             }
         },
@@ -752,6 +778,7 @@
             "name": "🌽夸克┃短剧",
             "type": 3,
             "api": "csp_XBPQ",
+            "timeout": 60,
             "ext": "./xb/夸克短剧.json",
             "jar": "./jar/xbpq.jar"
         },
@@ -876,6 +903,7 @@
             "key": "爱看资源网",
             "name": "🚘爱看┃网盘",
             "type": 3,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱看资源网.js"
         },
@@ -890,6 +918,7 @@
             "key": "夸克影视",
             "name": "💕夸克┃影视",
             "type": 3,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/夸克影视.js"
         },
@@ -897,24 +926,28 @@
             "key": "cat_夸克影院",
             "name": "👶夸克┃影院",
             "type": 3,
+            "timeout": 60,
             "api": "./js/夸克影院.js"
         },
         {
             "key": "cat_HDmoli",
             "name": "⛵HDmoli┃影院",
             "type": 3,
+            "timeout": 60,
             "api": "./js/HDmoli.js"
         },
         {
             "key": "灯泡网盘",
             "name": "💡灯泡｜网盘",
             "type": 3,
+            "timeout": 60,
             "api": "./js/灯泡网盘.js"
         },
         {
             "key": "影子网盘",
             "name": "⛵影子｜网盘",
             "type": 3,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/影子网盘.js"
         },
@@ -922,6 +955,7 @@
             "key": "米盘搜索",
             "name": "🌾米盘┃搜索",
             "type": 3,
+            "timeout": 60,
             "api": "./js/drpy2.min.js",
             "ext": "./js/米盘搜索.js"
         },
@@ -962,6 +996,7 @@
             "name": "🤖LIBVIO┃PY",
             "api": "./py/LIBVIO.py",
             "filterable": 1,
+            "timeout": 60,
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
@@ -980,6 +1015,7 @@
             "name": "🤒盘友┃搜索",
             "api": "./py/盘友圈.py",
             "filterable": 1,
+            "timeout": 60,
             "quickSearch": 1,
             "searchable": 1,
             "type": 3
