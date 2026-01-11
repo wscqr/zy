@@ -74,12 +74,6 @@
       "api": "http://zhangqun1818.serv00.net/js.php"
     },
     {
-      "key": "php集合",
-      "name": "php集合",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/php.php"
-    },
-    {
       "key": "python集合",
       "name": "python集合",
       "type": 4,
