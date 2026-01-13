@@ -1,6 +1,6 @@
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -206,7 +206,10 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "https://woog.nxog.eu.org"
+                    "https://woog.nxog.eu.org",
+                    "https://woog.nxog.fun",
+                    "https://woog.nxog.eu.org",
+                    "https://woog.430520.xyz"
                 ]
             }
         },
@@ -286,7 +289,14 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/雷鲸.json"
+            "ext": {
+                "site": [
+                    "https://www.leijing.xyz",
+                    "https://www.leijing1.com",
+                    "https://leijing.xyz",
+                    "https://leijing1.com"
+                ]
+            }
         },
         {
             "key": "海绵",
@@ -301,7 +311,13 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/海绵.json"
+            "ext": {
+                "site": [
+                    "http://haimian.eu.org",
+                    "https://www.hmxz.org",
+                    "https://www.haimianxz.com"
+                ]
+            }
         },
         {
             "key": "夸父",
@@ -316,7 +332,12 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/夸父.json"
+            "ext": {
+                "site": [
+                    "https://www.kfzy.cc"
+                ],
+                "cookie": "bbs_sid=qtrfbfct9gs8e7qat96o3nf09t; isClose=yes; __mxau__c2-lS6GI0pR=de438e75-e385-47c4-acb1-6564b407c7b1; __mxaf__c2-lS6GI0pR=1761439615; bbs_token=9NqiBWxAvM2MN_2FST20QOg5g9gcyzm2Hqfd9YwaQjK6Y_3D; __mxas__c2-lS6GI0pR=%7B%22sid%22%3A%22e4f30c47-1290-431b-b228-b9116c4744bd%22%2C%22vd%22%3A5%2C%22stt%22%3A168%2C%22dr%22%3A3%2C%22expires%22%3A1761476207%2C%22ct%22%3A1761474407%7D; __mxav__c2-lS6GI0pR=13"
+            }
         },
         {
             "key": "盘它",
@@ -344,7 +365,12 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "./json/123.json"
+            "ext": {
+                "site": [
+                    "https://123panfx.com",
+                    "https://pan1.me"
+                ]
+            }
         },
         {
             "key": "人人",
@@ -362,88 +388,22 @@
             }
         },
         {
-            "key": "阿里盘搜",
-            "name": "阿里｜盘搜",
+            "key": "双星",
+            "name": "双星｜4K",
             "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "aliyun"
+            "api": "csp_ShuangXing",
+            "style": {
+                "type": "list"
             }
         },
         {
-            "key": "夸克盘搜",
-            "name": "夸克｜盘搜",
+            "key": "盘搜",
+            "name": "盘搜｜搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "quark"
-            }
-        },
-        {
-            "key": "UC盘搜",
-            "name": "UC｜盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "uc"
-            }
-        },
-        {
-            "key": "天翼盘搜",
-            "name": "天翼｜盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "tianyi"
-            }
-        },
-        {
-            "key": "123盘搜",
-            "name": "123｜盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "123"
-            }
-        },
-        {
-            "key": "百度盘搜",
-            "name": "百度｜盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "baidu"
-            }
-        },
-        {
-            "key": "移动盘搜",
-            "name": "移动｜盘搜",
-            "type": 3,
-            "api": "csp_PanSou139",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cloudDrives": "mobile"
-            }
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "糖果",
@@ -451,8 +411,8 @@
             "type": 3,
             "api": "csp_TGSou",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "百酷",
