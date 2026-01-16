@@ -1,16 +1,16 @@
 {
   "sites": [
     {
+      "key": "py_官方采集789",
+      "name": "🍎官采(T4)",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
+    },
+    {
       "key": "py_小苹果",
       "name": "🍎小苹果(T4)",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
-    },
-    {
-      "key": "py_官方采集789",
-      "name": "🍎官方采集789(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
     },
     {
       "key": "py_动漫巴士",
@@ -113,6 +113,36 @@
       "api": "https://learnpython.ggff.net/CCTVPY",
       "key": "CCTVPY",
       "name": "CCTV",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/LIBVIO",
+      "key": "LIBVIO",
+      "name": "LIBVIO",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/QGUSP",
+      "key": "QGUSP",
+      "name": "QGUSP",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/TGstymei",
+      "key": "TGstymei",
+      "name": "瓜子",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/TXSPPY",
+      "key": "TXSPPY",
+      "name": "TXSPPY",
+      "type": 4
+    },
+    {
+      "api": "https://learnpython.ggff.net/XHJWPY",
+      "key": "XHJWPY",
+      "name": "XHJWPY",
       "type": 4
     },
     {
