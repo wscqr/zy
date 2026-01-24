@@ -1,5 +1,5 @@
 {
-  "spider": "https://oss4liview.moji.com/thd_file/2026/01/12/0a7fcca25f35b87c5659a4c83c6fd152.jpg;md5;323e8b50197207b7fcccfa8a636da143",
+  "spider": "https://oss4liview.moji.com/thd_file/2026/01/23/9daebade5d10a60ba6f6dc493dcd939f.jpg;md5;adcafc1d4363ae793ddb97068b5116c2",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -7,7 +7,7 @@
       "name": "🌟小雅┃高清",
       "type": 3,
       "api": "csp_AListSh",
-      "jar": "./libs/xiaoya_proxy.jar;md5;570655b58972bb0196ffc09fb07ba723",
+      "jar": "./libs/xiaoya_proxy.jar;md5;6403f61a72c49100491dfeed3ebc9c04",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -110,8 +110,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -120,6 +119,20 @@
       "type": 3,
       "api": "csp_YGPGuard",
       "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "MTV1",
+      "name": "🎙️易听音乐┃带歌词",
+      "type": 3,
+      "api": "csp_MusicGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "playerType": 2,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
     },
@@ -163,8 +176,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -231,16 +243,6 @@
       "changeable": 1
     },
     {
-      "key": "剧圈",
-      "name": "🐻剧圈┃多线",
-      "type": 3,
-      "api": "csp_JqqGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "热播",
       "name": "📺热播┃多线",
       "type": 3,
@@ -253,6 +255,17 @@
       "ext": "uqGL1bNENExT7/hGxpSE5qU="
     },
     {
+      "key": "剧圈",
+      "name": "🐻剧圈┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOb1uAWbkRHp7hdxprG9un3+S3T18333j8hL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0k5GV9Quw0AIzUurGBVyPqCLrdirfpAz+n0Qh7PVBWo8uxWhO1Bs1MCYA1oiM="
+    },
+    {
       "key": "下饭",
       "name": "🍙下饭┃多线",
       "type": 3,
@@ -261,7 +274,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuStr2HSytK11WwwcM/+XB8SbkBB4XYk/L52LroCiYRhoDrRLJ4ZkCh5q2RxCb5yUs6B5aCQVGSkR6zDgKLrFSDulg=="
+      "ext": "rfOX1voDIQhH8epBwpmIsuSzvzLEz8i80ys7e423AAgOORAW/jpk9eN3XtlP3Ixxt12KWtF0+Esrq3Y="
     },
     {
       "key": "极狐",
@@ -272,7 +285,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOb1uAWbkRHp7hdxprG9un3+Szfz8zv0jAjao20UU0cIAxL6DQ15qJ1O+BZw910sXeeL8VPwXcg/2xjQv8/GZnOrqqcWiP4CKLWif2sVyC8ihYjNklP7o6mQAL7VoFMG5d5pWhXSwS1CO7g1gbyVYEQxV0sT36wczr1h9ANQMp05z40WLhuXPJeeRYy14vg"
+      "ext": "rfOb1uAWbkRHp7hdxprG9un3+S/Cz8j6xik9ZIrwCw8aZkEOtiQw5qNif+ZRw904uGiCZNFRz3ln6nh5Q+wpBsGA6aydW3fmWrXH1ve0HjKxzV5kNEdcrI7mT1i2DMtcTIh17XhLS0D2Cr6rghboDg=="
+    },
+    {
+      "key": "猫猫",
+      "name": "🐟猫猫┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuSspW+fnt3j0Gkxas3qVQ5bZRBVvSwnsuM5MOJ0isFT7Xq5Kctln34euXsyXL42Edzeou/SGHg="
     },
     {
       "key": "橘子",
@@ -283,7 +307,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOb1uAWbkRHp7hdxprG9un3+S/Cz8j6xik9ZIrwCw8aZkEOtiQw5qNif+ZRw904uGiCZNFRz3ln6nh5Q+wpBsGA6aydW3fmWrXH1ve0HjKxzV5kNEdcrI7mT1i2DMtcTIh17XhLS0CiSqizjQaqBYcSlVc0Gm2wIGH134APQI1/"
+      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZwM/jwik9Zoy3AAlFMxpf9CY77fshJ+II0I4x7mOKd5IWnT40uC1p"
     },
     {
       "key": "鲸鱼",
@@ -294,7 +318,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwtCFsra0umqGnpe+lWNtKs6yVR1PMxpf9CY77fshTPNP+c5lnl6CWfxm7XYO7C1p"
+      "ext": "rfOb1uAWbkRHp7hdxprG9un3+TXC3NH30m85MMiyVkwSIgNArXpwrLZwJOlInMRrq2qCb88RxXck6mdnBfx+E9mVr+/WQHKnXOuf1rT3CHH2zSEDJ0lM/ZH/GF+kFMAPQfAluHgdCEy1QqmjhV0="
     },
     {
       "key": "糯米",
@@ -396,19 +420,6 @@
       }
     },
     {
-      "key": "MTV1",
-      "name": "🎙️易听┃音乐",
-      "type": 3,
-      "api": "csp_MusicGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "MTV",
       "name": "🎶明星┃MV",
       "type": 3,
@@ -491,8 +502,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -504,8 +514,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -518,7 +527,6 @@
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
         "yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"
       }
     },
@@ -531,8 +539,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -544,8 +551,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -556,8 +562,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
@@ -676,7 +681,7 @@
     {
       "name": "我的私用",
       "type": 0,
-      "url": "DOCKER_ADDRESS/tvbox/iptv.m3u",
+      "url": "http://123.118.105.216:5678/tvbox/iptv.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -692,7 +697,14 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "冰茶",
+      "name": "develop202",
+      "type": 0,
+      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+    },
+    {
+      "name": "冰 茶",
       "type": 0,
       "url": "https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true",
       "timeout": 10,
