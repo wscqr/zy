@@ -92,7 +92,7 @@
         "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
         "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
         "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
-        "site": "http://103.45.162.207:20720/"
+        "site": "http://154.222.27.33:20720/"
       }
     },
     {
@@ -102,7 +102,7 @@
       "playerType": 2,
       "api": "csp_Mogg",
       "ext": {
-        "site": "http://xsayang.fun:12512/"
+        "site": "http://154.201.83.50:12512/"
       }
     },
     {
@@ -574,11 +574,11 @@
       "ext": "https://api.maoyanapi.top/api.php/provide/vod/"
     },
     {
-      "key": "木耳",
-      "name": "木耳|弹幕",
+      "key": "天堂",
+      "name": "天堂|弹幕",
       "type": 3,
       "api": "csp_HBcms10",
-      "ext": "https://json02.heimuer.xyz/api.php/provide/vod/"
+      "ext": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/"
     },
     {
       "key": "234XBPQ",
