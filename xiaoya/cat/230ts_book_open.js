@@ -231,32 +231,4 @@ async function play(flag, id, flags) {
 async function search(wd, quick) {
     const link = HOST + '/search.html?searchtype=name&searchword=' + wd +'&page=1';
     const html = await request(link);
-    const $ = load(html);
-    const items = $('ul.book-ol > li');
-    let videos = _.map(items, (item) => {
-        const it = $(item).find('a:first')[0];
-        const img = $(item).find('img:first')[0];
-        const remarks = $($(item).find('div.book-meta')[0]).text().trim();
-        return {
-            book_id: it.attribs.href.replace(/.*?\/tingshu\/(.*)/g, '$1'),
-            book_name: it.attribs.title.replace('有声小说',''),
-            book_pic: img.attribs['data-original'],
-            book_remarks: remarks.replace('佚名（著）','').replace('佚名（播）','').replace('未知（著）','').replace('未知（播）','') || '',
-        };
-    });
-    return JSON.stringify({
-        list: videos,
-    });
-}
-
-export function __jsEvalReturn() {
-    return {
-        init: init,
-        home: home,
-        homeVod: homeVod,
-        category: category,
-        detail: detail,
-        play: play,
-        search: search,
-    };
-}
+    co
