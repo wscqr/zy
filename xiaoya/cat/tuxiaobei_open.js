@@ -112,24 +112,4 @@ async function search(wd, quick) {
             vod_id: a.attribs.href.replace(/.*?\/play\/(.*)/g, '$1'),
             vod_name: tt.children[0].data,
             vod_pic: img.attribs["src"],
-            vod_remarks: remarks.children[0].data || "",
-        };
-    });
-    return JSON.stringify({
-        list: videos,
-        land: 1,
-        ratio: 1.78,
-    });
-}
-
-export function __jsEvalReturn() {
-    return {
-        init: init,
-        home: home,
-        homeVod: homeVod,
-        category: category,
-        detail: detail,
-        play: play,
-        search: search,
-    }
-}
+            vod_remarks: remarks.children[0].data ||
