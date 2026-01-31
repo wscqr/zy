@@ -132,22 +132,4 @@ async function getCookie() {
         "Referer": siteUrl + "/stop.html",
         "Origin": siteUrl,
     };
-    const res = await requestRaw(siteUrl + "/logiu.html", headers, 'post', params);
-    let result = '';
-    for (const cookie of res.headers['set-cookie']) {
-        result += cookie.split(";")[0] + ";";
-    }
-    return result;
-}
-
-export function __jsEvalReturn() {
-    return {
-        init: init,
-        home: home,
-        homeVod: homeVod,
-        category: category,
-        detail: detail,
-        play: play,
-        search: search,
-    };
-}
+   
