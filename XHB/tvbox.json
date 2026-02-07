@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar",
+  "spider": "./custom_spider.jar;md5;08d6200093546cfe691af8f0904cccfc",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -35,7 +35,14 @@
       "key": "设置",
       "name": "网弹|设置",
       "type": 3,
-      "api": "csp_Config"
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
     },
     {
       "key": "我的网盘",
@@ -227,6 +234,59 @@
       "api": "https://so.yinpai.xyz/api.php?type=tianyi"
     },
     {
+      "key": "茶壶",
+      "name": "茶壶|弹幕",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_HBCupfox"
+    },
+    {
+      "key": "茉莉",
+      "name": "茉莉|弹幕",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_HBgetapp",
+      "ext": {
+        "host": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+        "appkey": "88689667dce61725",
+        "appiv": "88689667dce61725"
+      }
+    },
+    {
+      "key": "灵虎",
+      "name": "灵虎|弹幕",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_HBgetapp",
+      "ext": {
+        "host": "https://bind.315999.xyz/89.txt",
+        "appkey": "#getapp@TMD@2025",
+        "appiv": "#getapp@TMD@2025"
+      }
+    },
+    {
+      "key": "魔方",
+      "name": "魔方|4K弹幕",
+      "type": 3,
+      "api": "csp_HBgetapp",
+      "ext": {
+        "host":"https://snysw.xyz/mf4kzs327.txt",
+        "key":"MTIzNDU2Nzg4NzY1NDMyMQ==",
+        "iv":"MTIzNDU2Nzg4NzY1NDMyMQ=="
+      }
+    },
+    {
+      "key": "狐狸",
+      "name": "狐狸|4K弹幕",
+      "type": 3,
+      "api": "csp_HBAppfox",
+      "ext": "http://host1.sopython.top/host.json"
+    },
+
+    {
       "key": "景天",
       "name": "景天|4K弹幕",
       "type": 3,
@@ -240,27 +300,28 @@
       "api": "csp_HBcms10Dou",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
     },
-   /* {
-      "key": "至尊",
-      "name": "魔尊|4K弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://154.219.113.13:12121/json/app.txt"
-    },
-    {
-      "key": "魔尊",
-      "name": "重楼|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10",
-      "ext": "http://154.219.113.13:12121/json/cms.txt"
-    },
-    {
-      "key": "紫萱",
-      "name": "紫萱|4K弹幕",
-      "type": 3,
-      "api": "csp_AppZzun",
-      "ext": "http://154.219.113.13:12121/json/app2.txt"
-    },*/
+
+    /* {
+       "key": "至尊",
+       "name": "魔尊|4K弹幕",
+       "type": 3,
+       "api": "csp_AppZzun",
+       "ext": "http://154.219.113.13:12121/json/app.txt"
+     },
+     {
+       "key": "魔尊",
+       "name": "重楼|4K弹幕",
+       "type": 3,
+       "api": "csp_HBcms10",
+       "ext": "http://154.219.113.13:12121/json/cms.txt"
+     },
+     {
+       "key": "紫萱",
+       "name": "紫萱|4K弹幕",
+       "type": 3,
+       "api": "csp_AppZzun",
+       "ext": "http://154.219.113.13:12121/json/app2.txt"
+     },*/
     {
       "key": "立春",
       "name": "立春|4K弹幕",
@@ -372,7 +433,7 @@
       "api": "csp_Jianpian",
       "ext": "http://pizazzGY.zxbwv.com"
     },
-    {
+   /* {
       "key": "风神",
       "name": "风神|弹幕",
       "type": 3,
@@ -438,7 +499,7 @@
       "name": "蝴蝶|弹幕",
       "type": 3,
       "api": "csp_HBhcShun"
-    },
+    },*/
     {
       "key": "磁力",
       "name": "6V|弹幕",
@@ -479,13 +540,13 @@
       "api": "csp_Wcai",
       "ext": "https://www.jxshdzs.com/"
     },
-    {
+   /* {
       "key": "星河",
       "name": "星河|弹幕",
       "type": 3,
       "api": "csp_HBgetapp",
       "ext": "eyJob3N0IjoiaHR0cDovLzEyMS42Mi4yMi4yMDQ6OTg3Ni8iLCJrZXkiOiJaalZsTW5SNE5UTjVhM0EyY3pKak9RPT0iLCJpdiI6IlpqVmxNblI0TlRONWEzQTJjekpqT1E9PSIsInR5cGVJZHMiOlsiMSIsIjIiLCIzIiwiNCJdLCJ0eXBlTmFtZXMiOlsi55S15b2xIiwi55S16KeG5YmnIiwi5Yqo5ryrIiwi57u86Im6Il19"
-    },
+    },*/
     {
       "key": "追追",
       "name": "追追|弹幕",
@@ -524,27 +585,27 @@
       "type": 3,
       "api": "csp_Kanqiu"
     },
-   /* {
-      "key": "搜素1",
-      "name": "影搜|忧思",
-      "type": 3,
-      "api": "csp_HByingSo",
-      "ext": "1"
-    },
-    {
-      "key": "搜素2",
-      "name": "影搜|夸壳",
-      "type": 3,
-      "api": "csp_HByingSo",
-      "ext": "2"
-    },
-    {
-      "key": "搜素4",
-      "name": "影搜|度娘",
-      "type": 3,
-      "api": "csp_HByingSo",
-      "ext": "4"
-    },*/
+    /* {
+       "key": "搜素1",
+       "name": "影搜|忧思",
+       "type": 3,
+       "api": "csp_HByingSo",
+       "ext": "1"
+     },
+     {
+       "key": "搜素2",
+       "name": "影搜|夸壳",
+       "type": 3,
+       "api": "csp_HByingSo",
+       "ext": "2"
+     },
+     {
+       "key": "搜素4",
+       "name": "影搜|度娘",
+       "type": 3,
+       "api": "csp_HByingSo",
+       "ext": "4"
+     },*/
     {
       "key": "360",
       "name": "360|弹幕",
