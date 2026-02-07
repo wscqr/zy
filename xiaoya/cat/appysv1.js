@@ -870,4 +870,25 @@ function getHeaders(URL) {
 
 function isJsonString(str) {
     try {
-        JSON.parse(str
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+
+
+
+
+export function __jsEvalReturn() {
+    return {
+        init: init,
+        home: home,
+        homeVod: homeVod,
+        category: category,
+        detail: detail,
+        play: play,
+        search: search,
+    };
+}
+
