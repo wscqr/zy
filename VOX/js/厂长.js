@@ -7,7 +7,7 @@ title: '厂长资源', author: '小可乐/v6.1.1'
 }
 */
 
-const MOBILE_UA = 'Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36';
+const MOBILE_UA = 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Plus Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36';
 const DefHeader = {'User-Agent': MOBILE_UA};
 var HOST;
 var KParams = {
