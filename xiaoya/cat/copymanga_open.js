@@ -132,4 +132,76 @@ async function detail(id) {
     var key = Crypto.enc.Utf8.parse('xxxmanga.woo.key');
     var iv = Crypto.enc.Utf8.parse(data.substr(0, 16));
     var src = Crypto.enc.Hex.parse(data.substr(16));
-    var dst = Crypto.AES.decrypt({ ciphertext: src }, key, { iv: iv, padding: Crypto.pad.Pkcs7 }
+    var dst = Crypto.AES.decrypt({ ciphertext: src }, key, { iv: iv, padding: Crypto.pad.Pkcs7 });
+    dst = Crypto.enc.Utf8.stringify(dst);
+
+    const groups = JSON.parse(dst).groups;
+
+    let urls = _.map(groups.default.chapters, (c) => {
+        return c.name + '$' + id + '|' + c.id;
+    }).join('#');
+    book.volumes = '默認';
+    book.urls = urls;
+
+    return {
+        list: [book],
+    };
+}
+
+async function play(flag, id, flags) {
+    try {
+        var info = id.split('|');
+        var html = await request(url + `/comic/${info[0]}/chapter/${info[1]}`);
+        const $ = load(html);
+        const data = $('div.imageData')[0].attribs.contentkey;
+        var key = Crypto.enc.Utf8.parse('xxxmanga.woo.key');
+        var iv = Crypto.enc.Utf8.parse(data.substr(0, 16));
+        var src = Crypto.enc.Hex.parse(data.substr(16));
+        var dst = Crypto.AES.decrypt({ ciphertext: src }, key, { iv: iv, padding: Crypto.pad.Pkcs7 });
+        dst = Crypto.enc.Utf8.stringify(dst);
+        const list = JSON.parse(dst);
+        var content = [];
+        for (let index = 0; index < list.length; index++) {
+            const element = list[index];
+            content[index] = element.url;
+        }
+        return {
+            content: content,
+        };
+    } catch (e) {
+        return {
+            content: '',
+        };
+    }
+}
+
+async function search(wd, quick, pg) {
+    if (pg == 0) pg = 1;
+    const link = `${url}/api/kb/web/searcha/comics?offset=${pg > 1 ? ((pg - 1) * 12).toString() : ''}&platform=2&limit=12&q=${wd}&q_type=`;
+    var list = JSON.parse(await request(link)).results.list;
+    const books = [];
+    for (const book of list) {
+        books.push({
+            book_id: book.path_word,
+            book_name: book.name,
+            book_pic: book.cover,
+            book_remarks: book.author ? book.author[0].name : '',
+        });
+    }
+    return {
+        page: pg,
+        pagecount: list.length == 12 ? pg + 1 : pg,
+        list: books,
+    };
+}
+
+export function __jsEvalReturn() {
+    return {
+        init: init,
+        home: home,
+        category: category,
+        detail: detail,
+        play: play,
+        search: search,
+    };
+}
