@@ -51,4 +51,114 @@ async function category(tid, pg, filter, extend) {
     const $ = load(html);
     const list = $('.dmList li');
     const books = _.map(list, (item) => {
-        const $item = $(it
+        const $item = $(item);
+        const $a = $item.find('dt a:first');
+        const $img = $item.find('img:first');
+        const $span = $item.find('span:first');
+        return {
+            book_id: $a.attr('href'),
+            book_name: $a.text(),
+            book_pic: $img.attr('src'),
+            book_remarks: $span.text(),
+        };
+    });
+    const hasMore = $('.NewPages a:contains(下一页)').length > 0;
+    return {
+        page: pg,
+        pagecount: hasMore ? pg + 1 : pg,
+        list: books,
+    };
+}
+
+async function detail(id) {
+    const html = await request(HOST + id);
+    const $ = load(html);
+    const book = {
+        book_name: $('.title h1').text(),
+        book_director: $('.info p:contains(原著作者) a').text().trim(),
+        book_content: $('.introduction').text().trim(),
+        book_remarks: $('.title a:first').text(),
+    };
+    const list = $('.plist a');
+    const urls = _.map(list, (item) => {
+        const $item = $(item);
+        let title = $item.text().trim();
+        if (_.isEmpty(title)) {
+            title = '观看'
+        }
+        const href = $item.attr('href');
+        return title + '$' + href;
+    }).join('#');
+    book.volumes = '笨狗';
+    book.urls = urls;
+
+    return {
+        list: [book],
+    };
+}
+
+async function play(flag, id, flags) {
+    try {
+        const html = await request(HOST + id);
+        const matches = html.match(/var qTcms_S_m_murl_e=\"(.*)\";/);
+        const decoded = base64Decode(matches[1]);
+        const picList = decoded.split('$');
+        const content = [];
+        for (let i = 0; i < picList.length; i += 2) {
+            content.push(picList[i]);
+        }
+        return {
+            content: content,
+        };
+    } catch (e) {
+        console.debug('error: ' + e);
+        return {
+            content: '',
+        };
+    }
+}
+
+function base64Decode(text) {
+    return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text));
+}
+
+async function search(wd, quick, pg) {
+    if (pg == 0) pg = 1;
+    let page = '';
+    if (pg > 1) {
+        page = `&page=${pg}`;
+    }
+    const link = HOST + `/statics/search.aspx?key=${encodeURIComponent(wd)}${page}`;
+    const html = await request(link);
+    const $ = load(html);
+    const list = $('.dmList li');
+    const books = _.map(list, (item) => {
+        const $item = $(item);
+        const $a = $item.find('dt a:first');
+        const $img = $item.find('img:first');
+        const $span = $item.find('span:first');
+        return {
+            book_id: $a.attr('href'),
+            book_name: $a.text(),
+            book_pic: $img.attr('src'),
+            book_remarks: $span.text(),
+        };
+    });
+    const hasMore = $('.NewPages a:contains(下一页)').length > 0;
+    return {
+        page: pg,
+        pagecount: hasMore ? pg + 1 : pg,
+        list: books,
+    };
+}
+
+export function __jsEvalReturn() {
+    return {
+        init: init,
+        home: home,
+        category: category,
+        detail: detail,
+        play: play,
+        search: search,
+    };
+}
