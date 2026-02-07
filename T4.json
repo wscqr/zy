@@ -1,111 +1,99 @@
 {
   "sites": [
     {
-      "api": "https://newtv.ggff.net/douban?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/douban?token=fhJadO1R",
       "indexs": 0,
       "key": "豆瓣首页",
       "name": "豆瓣首页",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R",
       "key": "月佬瓜子影视",
       "name": "月佬瓜子影视",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/uvod?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/uvod?token=fhJadO1R",
       "key": "Qile优视频",
       "name": "Qile优视频",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/aigua?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/aigua?token=fhJadO1R",
       "key": "嗷呜爱瓜TV",
       "name": "嗷呜爱瓜TV",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/pingguo?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/pingguo?token=fhJadO1R",
       "key": "嗷呜小苹果",
       "name": "嗷呜小苹果",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/duboku?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/duboku?token=fhJadO1R",
       "key": "独播库",
       "name": "独播库",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/oule?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/oule?token=fhJadO1R",
       "key": "欧乐影院",
       "name": "欧乐影院",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/jianpian?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/jianpian?token=fhJadO1R",
       "key": "荐片",
       "name": "荐片",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/jubaba?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
       "key": "嗷呜剧爸爸",
       "name": "嗷呜剧爸爸",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/yongle?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/yongle?token=fhJadO1R",
       "key": "恰逢永乐",
       "name": "恰逢永乐",
       "type": 4
     },
     {
-      "api": "https://newtv.ggff.net/ikanbot?token=P69Phb_y",
+      "api": "https://newtv.ggff.net/ikanbot?token=fhJadO1R",
       "key": "爱看机器人",
       "name": "爱看机器人",
       "type": 4
     },
     {
-      "key": "py_官方采集789",
-      "name": "🍎官采(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
-    },
-    {
       "key": "py_小苹果",
-      "name": "🍎小苹果(T4)",
+      "name": "小苹果M",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
     },
     {
+      "key": "py_官方采集789",
+      "name": "官方采集M",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
+    },
+    {
       "key": "py_动漫巴士",
-      "name": "🍎动漫巴士(T4)",
+      "name": "动漫巴士M",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
     },
     {
       "key": "py_欧乐影院",
-      "name": "🍎欧乐影院(T4)",
+      "name": "欧乐影院M",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
     },
     {
-      "key": "py_小红影视",
-      "name": "🍎小红影视(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=01d44f1ecd9383f273c0c24989ad87c3"
-    },
-    {
-      "key": "py_低端影视",
-      "name": "🍎低端影视(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=a4108870c8bac363add59bf0101e2884"
-    },
-    {
       "key": "py_新韩剧网",
-      "name": "🍎新韩剧网(T4)",
+      "name": "新韩剧网M",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
     },
@@ -141,6 +129,12 @@
       "api": "http://zhangqun1818.serv00.net/js.php"
     },
     {
+      "key": "php集合",
+      "name": "php集合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/php.php"
+    },
+    {
       "key": "python集合",
       "name": "python集合",
       "type": 4,
@@ -159,64 +153,166 @@
       "api": "http://zhangqun1818.serv00.net/zh/2243.php"
     },
     {
-      "api": "https://learnpython.ggff.net/2BT",
-      "key": "2BT",
-      "name": "2BT",
-      "type": 4
+      "key": "T4-xingzhige",
+      "name": "影视-短剧(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/xingzhige.php"
     },
     {
-      "api": "https://learnpython.ggff.net/4KFS",
-      "key": "4KFS",
-      "name": "4KFS",
-      "type": 4
+      "key": "T4-guazi",
+      "name": "影视-瓜子(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
     },
     {
-      "api": "https://learnpython.ggff.net/4KVMYS",
-      "key": "4KVMYS",
-      "name": "4KVMYS",
-      "type": 4
+      "key": "T4-lianyu",
+      "name": "影视-恋鱼(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/lianyu.php"
     },
     {
-      "api": "https://learnpython.ggff.net/CCTVPY",
-      "key": "CCTVPY",
-      "name": "CCTV",
-      "type": 4
+      "key": "T4-jianpian2",
+      "name": "影视-荐片2(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jianpian2.php"
     },
     {
-      "api": "https://learnpython.ggff.net/LIBVIO",
-      "key": "LIBVIO",
-      "name": "LIBVIO",
-      "type": 4
+      "key": "T4-jumeng",
+      "name": "影视-聚梦(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jumeng.php"
     },
     {
-      "api": "https://learnpython.ggff.net/QGUSP",
-      "key": "QGUSP",
-      "name": "QGUSP",
-      "type": 4
+      "key": "T4-jinpai111",
+      "name": "影视-金牌(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jinpai.php"
     },
     {
-      "api": "https://learnpython.ggff.net/TGstymei",
-      "key": "TGstymei",
-      "name": "瓜子",
-      "type": 4
+      "key": "T4-bulei111",
+      "name": "影视-布雷(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bulei.php"
     },
     {
-      "api": "https://learnpython.ggff.net/TXSPPY",
-      "key": "TXSPPY",
-      "name": "TXSPPY",
-      "type": 4
+      "key": "T4-huaxiaozhu111",
+      "name": "影视-花小猪(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/huaxiaozhu.php"
     },
     {
-      "api": "https://learnpython.ggff.net/XHJWPY",
-      "key": "XHJWPY",
-      "name": "XHJWPY",
-      "type": 4
+      "key": "T4-hongguo",
+      "name": "短剧-红果(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/ai/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.php"
     },
     {
-      "api": "https://learnpython.ggff.net/FKTV",
-      "key": "FKTV",
-      "name": "FKTV",
-      "type": 4
+      "key": "T4-jimi",
+      "name": "影视-吉米(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jimi.php"
+    },
+    {
+      "key": "T4-batian",
+      "name": "影视-八天(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/batian.php"
+    },
+    {
+      "key": "T4-tianfeng",
+      "name": "影视-天峰(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/tianfeng.php"
+    },
+    {
+      "key": "T4-hg",
+      "name": "影视-HG(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/hg.php"
+    },
+    {
+      "key": "T4-mifun",
+      "name": "影视-米饭(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/mifun.php"
+    },
+    {
+      "key": "T4-caiji",
+      "name": "影视-采集(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/caiji.php"
+    },
+    {
+      "key": "T4-jianpian",
+      "name": "影视-荐片(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jianpian.php"
+    },
+    {
+      "key": "T4-huya",
+      "name": "影视-虎牙经典(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/huya.php"
+    },
+    {
+      "key": "T4-lunbo",
+      "name": "影视-YY轮播(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/yylb.php"
+    },
+    {
+      "key": "T4-jijiu",
+      "name": "其他-急救(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jijiu.php"
+    },
+    {
+      "key": "T4-cctv",
+      "name": "其他-央视(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/cctv.php"
+    },
+    {
+      "key": "T4-cntv",
+      "name": "其他-央视2(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/cntv.php"
+    },
+    {
+      "key": "T4-blh",
+      "name": "儿童-贝乐虎(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/beilehu.php"
+    },
+    {
+      "key": "T4-qingting",
+      "name": "🎵蜻蜓｜电台",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/qingting.php"
+    },
+    {
+      "key": "T4-mvzb",
+      "name": "🎵MV｜音乐",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/mvzb.php"
+    },
+    {
+      "key": "T4-aha",
+      "name": "🎵啊哈｜音乐",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/aha.php"
+    },
+    {
+      "key": "T4-suishenting",
+      "name": "🎵随身听｜相声评书",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/suishenting.php"
+    },
+    {
+      "key": "T4-tangdou",
+      "name": "🎵糖豆｜音乐",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/tangdou.php"
     }
   ],
   "parses": [
