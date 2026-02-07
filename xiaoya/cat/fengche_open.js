@@ -83,4 +83,65 @@ async function detail(id) {
         book_director: $('.mt10:contains(作者)').text().substring(3).trim(),
         book_content: $('.line-clamp-4:contains(简介)').text().substring(3).trim(),
     };
-    const list = $('.chapter
+    const list = $('.chapter-list li');
+    const urls = _.map(list, (item) => {
+        const $item = $(item).find('a');
+        const title = $item.text();
+        const href = `/info/${id}/${$item.attr('href')}`;
+        return title + '$' + href;
+    }).join('#');
+    book.volumes = '章节';
+    book.urls = urls;
+    return {
+        list: [book],
+    };
+}
+
+async function play(flag, id, flags) {
+    const html = await request(`${HOST}${id}`);
+    const $ = load(html);
+    const images = $('.chapter-content img');
+    const content = _.map(images, (image) => {
+        return $(image).attr('data-original');
+    });
+    return {
+        content: content,
+    };
+}
+
+async function search(wd, quick, pg) {
+    if (pg == 0) pg = 1;
+    const link = `${HOST}/search/${encodeURIComponent(wd)}/`;
+    const html = await request(link);
+    const $ = load(html);
+    const list = $('.cartoon-block-box .cart-item');
+    const books = _.map(list, (item) => {
+        const $item = $(item);
+        const $cover = $item.find('.cart-cover');
+        const $img = $cover.find('img:first');
+        const $p = $item.find('.cart-info p:first');
+        const $remark = $item.find('.new-chapter');
+        return {
+            book_id: $cover.attr('href').replace(/.*\/info\/(.*)\//, '$1'),
+            book_name: $p.text(),
+            book_pic: $img.attr('src'),
+            book_remarks: $remark.text(),
+        };
+    });
+    return {
+        page: pg,
+        pagecount: pg,
+        list: books,
+    };
+}
+
+export function __jsEvalReturn() {
+    return {
+        init: init,
+        home: home,
+        category: category,
+        detail: detail,
+        play: play,
+        search: search,
+    };
+}
