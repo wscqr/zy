@@ -3,12 +3,6 @@
         "name": "常用壳",
         "list": [
             {
-                "name": "OK影视手机版",
-                "url": "http://xz.rihou.cc:88/xz.apk?id=OKSJ64.apk",
-                "icon": "https://d.dayeapp.net/y.jpg",
-                "version": "64位"
-            },
-            {
                 "name": "OK影视电视版",
                 "url": "http://xz.rihou.cc:88/xz.apk?id=OKTV32.apk",
                 "icon": "https://d.dayeapp.net/y.jpg",
