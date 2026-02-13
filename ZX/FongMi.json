@@ -52,27 +52,12 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://tgsou.252035.xyz",
+        "siteUrl": "http://127.0.0.1:9999",
         "count": 4,
         "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
       }
-    },
-    {
-            "key": "p2t",
-            "name": "PanSou",
-            "type": 3,
-            "api": "csp_TgYunDouBanPan",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "siteUrl": "https://p2t.252035.xyz",
-                "count": 20,
-                "channelUsername": "",
-                "commonConfig": "./json/peizhi.json",
-                "filter": "./json/douban.json"
-            }
     },
     {
       "key": "ConfigCenter",
@@ -96,6 +81,17 @@
       "changeable": 1,
       "ext": {
         "site": "https://www.ksnnhbj.com",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "GuaZi",
+      "name": "瓜子影视",
+      "type": 3,
+      "api": "csp_GuaZi",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
         "commonConfig": "./json/peizhi.json"
       }
     },
@@ -124,6 +120,42 @@
           "碎片图片": "https://speed.hiknz.com"
         },
         "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "Ikanbot",
+      "name": "爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "FourKZN",
+      "name": "网盘 | 4k指南",
+      "type": 3,
+      "api": "csp_FourKZN",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "观影",
+      "name": "网盘 | 观影",
+      "type": 3,
+      "api": "csp_GuanYing",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://www.gyg.la/",
+        "username": "",
+        "password": ""
       }
     },
     {
@@ -237,15 +269,15 @@
     //      }
     //    },
     {
-      "key": "玩偶 | 大玩偶",
-      "name": "玩偶 | 大玩偶",
+      "key": "玩偶 | 木偶",
+      "name": "玩偶 | 木偶",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "siteUrl": "http://149.88.87.18:6688/",
+        "siteUrl": "https://www.muou.site/",
         "filter": "./json/wogg.json"
       }
     },
