@@ -474,31 +474,39 @@
             "changeable": 0
         },
         {
-            "key": "粉象世界",
-            "name": "🐘粉象┃APP",
+            "key": "追影闸4K",
+            "name": "🐈追影┃4K",
             "type": 3,
-            "changeable": 0,
-            "api": "csp_Appfox",
+            "changeable": 1,
+            "api": "csp_AppGet",
             "ext": {
-                "host": "http://host1.sopython.top/host.json",
-                "ver": 2
+                "host": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
+                "datakey": "kj37zs29q22jk96t",
+                "ua": "okhttp/3.10.0",
+                "api": 2
             }
         },
         {
-            "key": "搜一下APP",
-            "name": "🥌搜搜┃APP",
-            "type": 3,
-            "api": "csp_Appfox",
-            "ext": "https://www.zjcvod.com"
-        },
-        {
-            "key": "火花影院",
-            "name": "🔥火花┃APP",
+            "key": "咕噜映画",
+            "name": "🏇咕噜┃APP",
             "type": 3,
             "changeable": 0,
             "api": "csp_Appfox",
             "ext": {
-                "host": "http://huohua.itcxo.cn"
+                "host": "http://www.yingsw.top",
+                "key": "guluyinghua_123",
+                "sign": "679543610991810f19698c187e5e106e"
+            }
+        },
+        {
+            "key": "缘梦APP",
+            "name": "🎽缘梦┃APP",
+            "type": 3,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "host": "https://www.zipfve.cn",
+                "datakey": "1234567890987654"
             }
         },
         {
@@ -537,39 +545,6 @@
             }
         },
         {
-            "key": "奇奇视频",
-            "name": "🚵奇奇｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "api": "2",
-                "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
-                "datakey": "123456789abcdefg"
-            }
-        },
-        {
-            "key": "剧梦屋",
-            "name": "🙃剧梦｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://www.jumengwu.com",
-                "datakey": "1f0a873caf2550a5"
-            }
-        },
-        {
-            "key": "火狐影视",
-            "name": "🦊火狐｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "http://122.114.171.79:568/huohushipin.txt",
-                "datakey": "huohushipingetap"
-            }
-        },
-        {
             "key": "mifun",
             "name": "🐸mifun｜APP",
             "type": 3,
@@ -579,29 +554,6 @@
             "ext": {
                 "host": "https://miget-1313189639.cos.ap-guangzhou.myqcloud.com/mifun.txt",
                 "datakey": "GETMIFUNGEIMIFUN"
-            }
-        },
-        {
-            "key": "仓鼠4K",
-            "name": "🤑仓鼠｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://hk440cms.cs4k.top",
-                "datakey": "fL7sY4zN4kB3pG4p",
-                "api": 2
-            }
-        },
-        {
-            "key": "魔方4K",
-            "name": "🎲魔方┃APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://snysw.xyz/mf4kzs327.txt",
-                "datakey": "1234567887654321"
             }
         },
         {
@@ -642,19 +594,6 @@
             }
         },
         {
-            "key": "优优兔",
-            "name": "🐁优兔┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
-                "datakey": "UrWKPnmQWJA8AQzd",
-                "api": "2"
-            }
-        },
-        {
             "key": "王子4K",
             "name": "🙆王子┃APP",
             "type": 3,
@@ -662,29 +601,6 @@
             "ext": {
                 "host": "https://app.95112475.xyz",
                 "datakey": "5a9w6x58dsq6z3a6"
-            }
-        },
-        {
-            "key": "八天",
-            "name": "🏂八天┃APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "host": "https://dy.8ttv.cn/",
-                "datakey": "1111111111111111"
-            }
-        },
-        {
-            "key": "剧下饭",
-            "name": "🍚剧集┃下饭",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppYsV2",
-            "ext": {
-                "api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
-                "apisignkey": "lvdoutv-1.0.0"
             }
         },
         {
@@ -701,12 +617,38 @@
             }
         },
         {
+            "key": "闪影BOX",
+            "name": "🤯臻享┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchTop": true,
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+        },
+        {
             "key": "夸克短剧",
             "name": "🌽夸克┃短剧",
             "type": 3,
             "api": "csp_XBPQ",
             "timeout": 60,
             "ext": "./xb/夸克短剧.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "短剧百度",
+            "name": "🥦短剧┃百度",
+            "type": 3,
+            "timeout": 30,
+            "api": "csp_XBPQ",
+            "ext": "./xb/短剧百度.json",
+            "jar": "./jar/xbpq.jar"
+        },
+        {
+            "key": "短剧夸克",
+            "name": "🍆短剧┃夸克",
+            "type": 3,
+            "timeout": 30,
+            "api": "csp_XBPQ",
+            "ext": "./xb/短剧夸克.json",
             "jar": "./jar/xbpq.jar"
         },
         {
@@ -923,6 +865,13 @@
             "changeable": 1
         },
         {
+            "key": "人人PHP",
+            "name": "👭人人┃PHP",
+            "type": 4,
+            "api": "http://jiduo666.dpdns.org/rrsp.php",
+            "changeable": 1
+        },
+        {
             "key": "爱看机器人",
             "name": "🚒爱看┃（羊）",
             "type": 3,
@@ -935,22 +884,10 @@
             "api": "./js/茶杯狐.js"
         },
         {
-            "key": "fofo",
-            "name": "🍡fofo┃（羊）",
-            "type": 3,
-            "api": "./js/fofo.js"
-        },
-        {
             "key": "聚合短剧",
             "name": "🐑短剧┃（羊）",
             "type": 3,
             "api": "./js/聚合短剧.js"
-        },
-        {
-            "key": "山有木兮",
-            "name": "🏔️山木┃（羊）",
-            "type": 3,
-            "api": "./js/山有木兮.js"
         },
         {
             "key": "月光影视",
@@ -1300,7 +1237,68 @@
             ]
         }
     ],
-    "headers": [],
+    "headers": [
+        {
+            "host": "img\\d+.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img1.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img2.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img3.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img4.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img5.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img6.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img7.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img8.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        },
+        {
+            "host": "img9.doubanio.com",
+            "header": {
+                "Referer": "https://movie.douban.com"
+            }
+        }
+    ],
     "hosts": [],
     "parses": [
         {
@@ -1309,9 +1307,39 @@
             "url": "http://127.0.0.1:9978/proxy?do=voxjx&url="
         },
         {
-            "name": "手动解析",
+            "name": "手动解析①",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析②",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析③",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "手动解析④",
+            "type": 0,
+            "url": "https://okjx.cc/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
