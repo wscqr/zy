@@ -90,10 +90,10 @@
         "token": "./lib/tokenm.json",
         "json": "./lib/tgsearch.json",
         "keywords": "名称,片名,推荐",
-        "tgsearch_url": "https://tg.252035.xyz",
-        "tgsearch_media_url": "https://tg.252035.xyz",
-        "channellist": "tgsearchers3,ucwpzy,1000,ucpanpan,1000,yunpanuc,1000,NewAliPan,1000,aliyun,1000,zaihuayun,1000,shareAliyun,1000,Aliyun_4K_Movies,1000,shareAliyun,1000,shareAliyun,1000,yppan,1000,Q66Share,1000,dianyingshare,1000,1000,yunpanshare,1000,kduanju,1000,MCPH860,1000,wama520520,1000,QuarkFree,1000,Quark_Movies,1000,MCPH086,1000,NewQuark,1000,kuakeyun,1000,alyp_Animation,1000,alyp_TV,1000,alyp_1,1000,alyp_JLP,1000,alyp_4K_Movies,1000,vip115hot,1000",
-        "proxy": "noproxy",
+        "tgsearch_url": "http://127.0.0.1:10199",
+        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "channellist": "tgsearchers3,leoziyuan,peccxinpd,yydf_hzl,vip115hot,clouddriveresources,q66share,yggpan,xiangxiunbb,oscardianying,dianying4k,wfysfx02,quarkfree,ucwpzy,ucquark,mcph860,mcph608,xunleibl,taoxgzy,yunpanx,kkxlzy,mcph086,dianyingshare,quark_movies,zyfx2022,alyp_1,quanziyuanshe,hdhhd21,guoman4k,duan_ju,q_dianying,q_dianshiju,sharepanfilms,mcph01,jdjdn1111,panjclub,baicaozy,yunpan189,tianyirigeng,cloudtianyi,tyysypzypd,txtyzy,kuakeclound,tyypzhpd,zyfb123,xx123pan,zyzhpd123,yingshifenxiang123,yp123pan,wp123zy115:oneonefivewpfx,lsp115,qukanmovie,channel_shares_115,share4115,ysxb48,aliyun:zaihuayun,sharealiyun,aliyun_4k_movies,aliyunys,qixingzhenren,yunpanuc,ucshare,ucwangpan",
+        "proxy": "proxy",
         "danmu": true
       },
       "style": {
@@ -111,9 +111,9 @@
         "token": "./lib/tokenm.json",
         "json": "./lib/tgsearch.json",
         "keywords": "名称,片名,推荐",
-        "tgsearch_url": "https://tg.252035.xyz",
-        "tgsearch_media_url": "https://tg.252035.xyz",
-        "channellist": "tgsearchers3",
+        "tgsearch_url": "http://127.0.0.1:10199",
+        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "channellist": "tgsearchers3,KFCYeah,tianyifc,BaiduCloudDisk,txtyzy,peccxinpd,gotopan,PanjClub,kkxlzy,baicaoZY,yggpan,zaihuayun,Q66Share,Oscar_4Kmovies,shareAliyun,alyp_1,Quark_Movies,XiangxiuNBB,ydypzyfx,ucquark,xx123pan,zyfb123,tyypzhpd,tianyirigeng,cloudtianyi,hdhhd21,Lsp115,qixingzhenren,tyysypzypd,vip115hot,wp123zy,yunpan189,yydf_hzl,leoziyuan",
         "proxy": "noproxy",
         "danmu": true
       },
@@ -296,7 +296,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$https://www.mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
+      "ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
     },
     {
       "key": "Hmxz",
@@ -338,29 +338,6 @@
       "filterable": 1,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$http://www.libvio.mov/$$$noproxy$$$1"
-    },
-    {
-      "key": "Youtube",
-      "name": "Youtube",
-      "type": 3,
-      "api": "csp_Youtube",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "timeout": 120,
-      "ext": {
-        "token": "./lib/tokenm.json",
-        "json": "./lib/youtube.json",
-        "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
-        "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-        "codecs": "",
-        "proxy": "proxy",
-        "danmu": true
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      }
     },
     {
       "key": "Guazi",
