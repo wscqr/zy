@@ -7,26 +7,26 @@
       "name": "🌟小雅┃高清",
       "type": 3,
       "api": "csp_AListSh",
-      "jar": "./libs/xiaoya_proxy.jar;md5;6403f61a72c49100491dfeed3ebc9c04",
+      "jar": "http://115.190.114.240:5678/tvbox/libs/xiaoya_proxy.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": [
         {
           "name": "丫仙女",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/",
           "search": true,
           "noPoster": true
         },
         {
           "name": "每日更新",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/每日更新"
         },
         {
           "name": "丫的宝库",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/",
           "filters": {
             "全部": ".",
@@ -40,37 +40,37 @@
         },
         {
           "name": "电影",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/电影"
         },
         {
           "name": "电视剧",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/电视剧"
         },
         {
           "name": "短剧",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/每日更新/爽文短剧"
         },
         {
           "name": "综艺",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/综艺"
         },
         {
           "name": "纪录片",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/纪录片"
         },
         {
           "name": "动漫",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/动漫/合集（115）"
         },
         {
           "name": "儿童",
-          "server": "DOCKER_ADDRESS/",
+          "server": "http://115.190.114.240:5678/",
           "startPage": "/动漫/儿童"
         }
       ]
