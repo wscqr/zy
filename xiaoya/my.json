@@ -14,19 +14,19 @@
       "ext": [
         {
           "name": "丫仙女",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/",
           "search": true,
           "noPoster": true
         },
         {
           "name": "每日更新",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/每日更新"
         },
         {
           "name": "丫的宝库",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/",
           "filters": {
             "全部": ".",
@@ -40,37 +40,37 @@
         },
         {
           "name": "电影",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/电影"
         },
         {
           "name": "电视剧",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/电视剧"
         },
         {
           "name": "短剧",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/每日更新/爽文短剧"
         },
         {
           "name": "综艺",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/综艺"
         },
         {
           "name": "纪录片",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/纪录片"
         },
         {
           "name": "动漫",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/动漫/合集（115）"
         },
         {
           "name": "儿童",
-          http://115.190.114.240:5678
+          "server": "DOCKER_ADDRESS/",
           "startPage": "/动漫/儿童"
         }
       ]
@@ -711,7 +711,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "develop",
+      "name": "develop202",
       "type": 0,
       "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
@@ -719,16 +719,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "冰茶",
+      "name": "Kimentanm",
       "type": 0,
-      "url": "https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true",
-      "timeout": 10,
-      "ua": "bingcha/1.1(mianfeifenxiang)"
-    },
-    {
-      "name": "春晚专线",
-      "type": 0,
-      "url": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/0d147087943cb8a7/4k.txt",
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
