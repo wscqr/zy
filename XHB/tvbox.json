@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;08d6200093546cfe691af8f0904cccfc",
+  "spider": "./custom_spider.jar",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -13,7 +13,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "导航|小虎斑的口粮",
+      "name": "导航|新春贺喜(虎)",
       "type": 3,
       "api": "csp_Douban",
       "ext": "./lib/douban.json"
@@ -29,7 +29,7 @@
       "name": "应用|更新",
       "type": 3,
       "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
+      "ext": "aHR0cHM6Ly94aWFvaHViYW4uY24tbmIxLnJhaW5zMy5jb20vbWFyay5qc29u"
     },
     {
       "key": "设置",
@@ -52,6 +52,32 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "知秋",
+      "name": "知秋|弹幕",
+      "type": 3,
+      "api": "csp_MYzhiqiu",
+      "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"
+    },
+    {
+      "key": "独播",
+      "name": "独播|弹幕",
+      "type": 3,
+      "api": "csp_Duboku"
+    },
+    {
+      "key": "muxi",
+      "name": "人人|弹幕",
+      "type": 3,
+      "api": "csp_HBrenren"
+    },
+    {
+      "key": "fishhxq",
+      "name": "韩圈|弹幕",
+      "type": 3,
+      "api": "csp_FishHxq",
+      "ext": "DyoqWQInJUMuGFdcDzo2Bjg3KgUuDwoENzYhHDhdUQEuUzRBDVAfHzsCBA8DJgYFDTFNHgAnKUg"
     },
     {
       "key": "全网",
@@ -204,6 +230,12 @@
         "leijck": ""}
     },
     {
+      "key": "xunlei",
+      "name": "迅雷|推送",
+      "type": 4,
+      "api": "https://so.yinpai.xyz/api.php?type=xunlei"
+    },
+    {
       "key": "123",
       "name": "123|推送",
       "type": 4,
@@ -240,6 +272,32 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_HBCupfox"
+    },
+    {
+      "key": "房源",
+      "name": "房源|弹幕",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_HBgetapp",
+      "ext": {
+        "host": "https://fyys9.fytd.top/",
+        "appkey": "88689667dce61725",
+        "appiv": "88689667dce61725"
+      }
+    },
+    {
+      "key": "奇奇",
+      "name": "奇奇|弹幕",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_HBgetapp",
+      "ext": {
+        "host": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/b.txt",
+        "appkey": "123456789abcdefg",
+        "appiv": "123456789abcdefg"
+      }
     },
     {
       "key": "茉莉",
@@ -321,7 +379,7 @@
        "type": 3,
        "api": "csp_AppZzun",
        "ext": "http://154.219.113.13:12121/json/app2.txt"
-     },*/
+     },
     {
       "key": "立春",
       "name": "立春|4K弹幕",
@@ -349,7 +407,7 @@
       "type": 3,
       "api": "csp_HBNT4",
       "ext": "DyoqWQIrBwMuUgZBNzVBHQA7MUcsCFtcCjVMVA=="
-    },
+    },*/
     {
       "key": "小猫",
       "name": "小猫|自定",
