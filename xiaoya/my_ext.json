@@ -1,5 +1,5 @@
 {
-  "spider": "https://oss4liview.moji.com/thd_file/2026/02/17/7d3cdcb2f8b1593eb773420f2abe2ac1.jpg;md5;e3401ec8d207b9d9a14bad13a67af3ee",
+  "spider": "https://oss4liview.moji.com/thd_file/2026/02/20/b5bb5a60fbb9b26fe6f59ac609fca9ce.jpg;md5;32091ed00f3c6bab72ba657bdc1599c8",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -284,7 +284,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOK0+FRORAJ7epFjN2FsOb1+GqQnoi1lWpnKce9V0IZMxpf6yxk9eNgZeUK3MNzrGGcdpZC2H5zoS1uF+soEYzGuuXCAiOuXKzelf2sV2f621J5ZQ4c7pP8BFS7Fs0PEY8lpRhZWwqtPa6rhhvgNctJ9j0sLEz4Mhrtm89EFe48xmFNHps1S/1GchY72uijv7aa/zlQQ6REaL7lUmXCHtnni/jUsIDOSq2XESorCnJKfnEKa/QYtsdAUX9+jckWyvpX3A=="
+      "ext": "rfOK0+FRORAJ7epFjN2Fu+P28G+ZmI+4lWJhI8G1X0oOORAJ9GV87aJ0e7pS1MRysGWZdpZOyWEwqycyCv8/EM/eovjVCCnyVL/Snb60T3H52VBwcwQWv43+HUeuF84cUpc9shojUwGrQqGljWWfTbQzjT8lV03wOBqSlbdOG+4zvmJFFepNRIsydhdA3eyrx7Xu+jopSKU/b8CRWR3IF9mcj/jfvoHHQdOcaitScnIxBX5xb/Ngs8dPV3J59b4ewfJJh30="
     },
     {
       "key": "视界",
@@ -711,18 +711,18 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "Kimentanm",
+      "type": 0,
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
+    },
+    {
       "name": "develop202",
       "type": 0,
       "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2
     },
     {
       "name": "范明明（需开启V6网络）",
