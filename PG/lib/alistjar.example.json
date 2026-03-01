@@ -1,10 +1,10 @@
 {
   "drives": [
     {
-      "name": "alist.jar",
+      "name": "xiaoya",
       "search": true,
       "searchable": true,
-      "server": "http://192.168.1.1:5678/"
+      "server": "http://115.190.114.240:5678/"
     }
   ],
   "danmu":true
