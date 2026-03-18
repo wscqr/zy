@@ -1,7 +1,7 @@
 {
   "drives": [
     {
-      "name": "xiaoya",
+      "name": "小雅",
       "search": true,
       "searchable": true,
       "server": "http://115.190.114.240:5678/"
