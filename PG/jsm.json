@@ -80,27 +80,27 @@
         "cookie": ""
       }
     },
-        {
-            "key": "TGYunPanLocal",
-            "name": "TG频道搜索",
-            "type": 3,
-            "api": "csp_TGYunPanLocal",
-            "timeout": 120,
-            "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/tgsearch.json",
-                "keywords": "名称,片名,推荐",
-                "tgsearch_url": "https://tg.252035.xyz",
-                "tgsearch_media_url": "https://tg.252035.xyz",
-                "channellist": "tgsearchers3",
-                "proxy": "noproxy",
-                "danmu": true
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.77
-            }
-        },
+    {
+      "key": "TGYunPanLocal",
+      "name": "TG频道搜索",
+      "type": 3,
+      "api": "csp_TGYunPanLocal",
+      "timeout": 120,
+      "ext": {
+        "token": "./lib/tokenm.json",
+        "json": "./lib/tgsearch.json",
+        "keywords": "名称,片名,推荐",
+        "tgsearch_url": "https://tg.252035.xyz",
+        "tgsearch_media_url": "https://tg.252035.xyz",
+        "channellist": "tgsearchers3",
+        "proxy": "noproxy",
+        "danmu": true
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      }
+    },
     {
       "key": "TGYunPan",
       "name": "TG群组搜索",
@@ -123,6 +123,17 @@
       }
     },
     {
+      "key": "快映网盘",
+      "name": "快映|网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$http://xsayang.fun:12512/$$$noproxy$$$1$$$./lib/wogg.json$$$KUAIYING"
+    },
+    {
       "key": "二小网盘",
       "name": "二小|网盘",
       "type": 3,
@@ -131,7 +142,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$https://erxiaofn.click/$$$noproxy$$$1$$$./lib/wogg.json$$$ERXIAO"
+      "ext": "./lib/tokenm.json$$$https://www.2xiaozhan.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ERXIAO"
     },
     {
       "key": "傻样网盘",
