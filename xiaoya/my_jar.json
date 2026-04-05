@@ -1,5 +1,5 @@
 {
-  "spider": "https://oss4liview.moji.com/thd_file/2026/03/16/50a9c8c5e7874ca0102df30d6ba99cc7.jpg;md5;c067633ea703159709d6c4e522c3dae5",
+  "spider": "https://oss4liview.moji.com/thd_file/2026/03/27/1612f09ddf31e69b00c273c76e53e54f.jpg;md5;96ea56039dad3f4c0438f9b1f949a66a",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -7,17 +7,20 @@
       "name": "🌟小雅┃高清",
       "type": 3,
       "api": "csp_AListSh",
-      "jar": "./libs/xiaoya_proxy.jar;md5;7576209451a9847cc7934919cf56ba14",
+      "jar": "./libs/xiaoya_proxy.jar;md5;6aa1d2660fb78339d52dae394893e4a4",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "timeout": 30,
       "ext": [
         {
+          "type": "global",
+          "danmuApi": "DANMU_API"
+        },
+        {
           "name": "丫仙女",
           "server": "DOCKER_ADDRESS/",
           "startPage": "/",
-          "search": true,
           "noPoster": true
         },
         {
@@ -29,6 +32,8 @@
           "name": "丫的宝库",
           "server": "DOCKER_ADDRESS/",
           "startPage": "/",
+          "search": true,
+          "defaultFilter": "",
           "filters": {
             "全部": ".",
             "国产剧": "((电视剧.*(国产|中国|华语|台湾|香港|港台))|(国产剧))",
@@ -298,7 +303,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuSzojrZxdTnzy4lcpy3AAlFMxpf9CY77fshLs0O9fE94T6hWZAWnkpluC1p"
+      "ext": "rfOb1uAWbkRHp7hdxprGv+T3sSDQnNf20CkhL572CklJZUYN/js2+K5iYulIwYR+oXDNMYJMzXdzsy11CuhjOZO3s+jeWEqEX/jI1qY="
     },
     {
       "key": "视界",
@@ -342,7 +347,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kuzsmBOA4Uobe87udCDvyT6nSxuqjBjOinAoodBQAqNy7UE+qFZ1UBoc16Q=="
+      "ext": "rfOb1uAWbkRHp7hdxprGv+T3+22cnI+1lW1gL8i1UUQeJQBMqCc2+bF/Yq4Ul9lvoCLVO51Skm9i8zNvRa47T5uA+erCUw=="
     },
     {
       "key": "猫猫",
@@ -353,7 +358,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOb1uAWbkRHp7hdxprG9un3+TXe0NPv1yt7LM60XkwYLA1No3EluLI1d/gV1t5vq2+PaJZO0X8y4XhhFKorB8fL8quaRzegVrmV3P39FC7u1UYsIlVb07zwEm/4Hc0/c9s1snJBF1/lWqakhRaj"
+      "ext": "rfOX1voDIQhH8epBwtCFsub1+2malYq8nGlnJc27UEwSIhBVvSwnsuM5MP9Wy9pxq2yEJ8wa1nw5tzoyXL42Edzeou/SHng="
     },
     {
       "key": "奥特",
