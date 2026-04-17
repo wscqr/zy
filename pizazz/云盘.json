@@ -30,21 +30,8 @@
             "api": "csp_LocalFile"
         },
         {
-            "key": "AList",
-            "name": "AList｜合集",
-            "type": 3,
-            "api": "csp_Alist",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
-        },
-        {
             "key": "阿里云盘",
-            "name": "我的｜阿里",
+            "name": "阿里｜云盘",
             "type": 3,
             "api": "csp_PanAli",
             "searchable": 0,
@@ -56,8 +43,8 @@
             }
         },
         {
-            "key": "夸克云盘",
-            "name": "我的｜夸克",
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
             "type": 3,
             "api": "csp_PanQuark",
             "searchable": 0,
@@ -69,10 +56,10 @@
             }
         },
         {
-            "key": "UC云盘",
-            "name": "我的｜UC",
+            "key": "UC网盘",
+            "name": "UC｜网盘",
             "type": 3,
-            "api": "csp_PanUc",
+            "api": "csp_PanUC",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -82,10 +69,10 @@
             }
         },
         {
-            "key": "百度云盘",
-            "name": "我的｜百度",
+            "key": "百度网盘",
+            "name": "百度｜网盘",
             "type": 3,
-            "api": "csp_PanBaiDu",
+            "api": "csp_PanBaidu",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -279,6 +266,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
+                    "https://shandian.blog",
                     "https://sd.sduc.site"
                 ]
             },
@@ -288,7 +276,7 @@
             "key": "夸克",
             "name": "夸克｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudKK",
+            "api": "csp_PanWebShareKK",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -304,7 +292,7 @@
             "key": "清影",
             "name": "清影｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudQY",
+            "api": "csp_PanWebShareQY",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -317,53 +305,10 @@
             "timeout": 60
         },
         {
-            "key": "雷鲸",
-            "name": "雷鲸｜4K",
-            "type": 3,
-            "api": "csp_PanWebShareCloudLJ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "site": [
-                    "https://www.leijing.xyz",
-                    "https://www.leijing1.com",
-                    "https://leijing.xyz",
-                    "https://leijing1.com"
-                ]
-            },
-            "timeout": 60
-        },
-        {
-            "key": "海绵",
-            "name": "海绵｜4K",
-            "type": 3,
-            "api": "csp_PanWebShareCloudHM",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "site": [
-                    "http://haimian.eu.org",
-                    "https://www.hmxz.org",
-                    "https://www.haimianxz.com"
-                ]
-            },
-            "timeout": 60
-        },
-        {
             "key": "夸父",
             "name": "夸父｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudKF",
+            "api": "csp_PanWebShareKF",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -373,9 +318,9 @@
             },
             "ext": {
                 "site": [
-                    "https://www.kfjwzz.com"
+                    "https://www.kfzys.net"
                 ],
-                "cookie": "bbs_sid=bi7dpnm6vp31s38rjqlqq8vq84; bbs_token=TWiR3YUrGoVpbdTkjAJ0xMe_2B_2FiaFvd84V3_2FEZJRRSKU_3D"
+                "cookie": "bbs_sid=p5mugcm9r147o1d3qpi0su1ucm; bbs_token=gDMAOehNUQetTJv9Lnet0J_2FGJmgdvnx90iTZqzU_2FnO0_3D"
             },
             "timeout": 60
         },
@@ -383,7 +328,7 @@
             "key": "盘它",
             "name": "盘它｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudPT",
+            "api": "csp_PanWebSharePT",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -396,7 +341,7 @@
             "key": "123",
             "name": "123｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloud123",
+            "api": "csp_PanWebShare123",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -413,13 +358,23 @@
             "timeout": 60
         },
         {
+            "key": "指南",
+            "name": "指南｜4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
             "key": "人人",
             "name": "人人｜4K",
             "type": 3,
             "api": "csp_RenRen",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
             "timeout": 60
         },
         {
@@ -469,6 +424,26 @@
             "timeout": 60
         },
         {
+            "key": "兄弟",
+            "name": "兄弟｜搜索",
+            "type": 3,
+            "api": "csp_XiongdiPan",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "九七",
+            "name": "九七｜搜索",
+            "type": 3,
+            "api": "csp_97Sou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
             "key": "百酷",
             "name": "百酷｜搜索",
             "type": 3,
@@ -483,16 +458,6 @@
             "name": "米搜｜搜索",
             "type": 3,
             "api": "csp_MiSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "酷乐",
-            "name": "酷乐｜搜索",
-            "type": 3,
-            "api": "csp_KuLe",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -519,20 +484,10 @@
             "timeout": 60
         },
         {
-            "key": "兄弟",
-            "name": "兄弟｜搜索",
-            "type": 3,
-            "api": "csp_XiongDiPan",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
             "key": "天翼",
             "name": "天翼｜搜索",
             "type": 3,
-            "api": "csp_TianYiSo",
+            "api": "csp_TianYiSou",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
