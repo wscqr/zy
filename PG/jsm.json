@@ -123,16 +123,27 @@
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$https://www.2xiaozhan.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ERXIAO"
     },
-    {
-      "key": "傻样网盘",
-      "name": "傻样|网盘",
+   {
+      "key": "闪电网盘",
+      "name": "闪电|网盘",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$http://154.201.83.50:12512/$$$noproxy$$$1$$$./lib/wogg.json$$$SAYANG"
+      "ext": "./lib/tokenm.json$$$http://shandian.blog$$$noproxy$$$1$$$./lib/wogg.json$$$SANDIAN"
+    },
+   {
+      "key": "鸭社网盘",
+      "name": "鸭社|网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "./lib/tokenm.json$$$http://www.guangyashe.top$$$noproxy$$$1$$$./lib/wogg.json$$$SANDIAN"
     },
     {
       "key": "快影网盘",
@@ -143,7 +154,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$http://154.201.83.50:12512$$$noproxy$$$1$$$./lib/wogg.json$$$KUAIYING"
+      "ext": "./lib/tokenm.json$$$http://38.76.197.172:12521$$$noproxy$$$1$$$./lib/wogg.json$$$KUAIYING"
     },
     {
       "key": "多多网盘",
@@ -187,7 +198,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$http://103.45.162.207:20720$$$noproxy$$$1$$$./lib/wogg.json$$$HUBEN"
+      "ext": "./lib/tokenm.json$$$http://38.76.197.172:16969$$$noproxy$$$1$$$./lib/wogg.json$$$HUBEN"
     },
 		{"key":"Guanying","name":"观影|网盘|磁力","type":3,"api":"csp_Guanying","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.gying.net$$$noproxy$$$1$$$./lib/guanying.txt$$$GUANYING"},
 		{"key":"FourKZN","name":"4K指南|网盘|磁力","type":3,"api":"csp_FourKZN","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://4kzn.com/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"},
