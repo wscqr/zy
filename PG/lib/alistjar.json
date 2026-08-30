@@ -3,15 +3,19 @@
     "drives": [
         {
             "name": "小雅",
-            "server": "http://115.190.114.240:5678/"
+            "server": "https://pan.mediy.cn/"
         },
         {
             "name": "触光",
             "server": "https://pan.ichuguang.com"
         },
         {
-            "name": "魔都云",
-            "server": "https://cdn.modupan.com"
+            "name": "Ecve",
+            "server": "https://pan.ecve.cn/"
+        },
+        {
+            "name": "神族九帝",
+            "server": "https://alist.shenzjd.com"
         },
         {
             "name": "七米蓝",
